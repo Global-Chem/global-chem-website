@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f3c73f2-c0a3-4d3f-9c8a-52a24c73a061" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/animate.css" afterPath="$PROJECT_DIR$/assets/austin/css/animate.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/austin/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/colors/blue.css" afterPath="$PROJECT_DIR$/assets/austin/css/colors/blue.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/main.css" afterPath="$PROJECT_DIR$/assets/austin/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/nivo-lightbox.css" afterPath="$PROJECT_DIR$/assets/austin/css/nivo-lightbox.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/responsive.css" afterPath="$PROJECT_DIR$/assets/austin/css/responsive.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/slicknav.css" afterPath="$PROJECT_DIR$/assets/austin/css/slicknav.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.eot" afterPath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.eot" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.svg" afterPath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.svg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.ttf" afterPath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.ttf" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.woff" afterPath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.woff" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/css/font-awesome.css" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/animated.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/animated.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/core.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/core.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/fixed-width.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/fixed-width.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/font-awesome.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/font-awesome.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/icons.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/icons.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/larger.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/larger.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/list.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/list.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/mixins.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/mixins.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/path.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/path.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/screen-reader.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/screen-reader.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/stacked.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/stacked.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/variables.less" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/variables.less" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_animated.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_animated.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_core.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_core.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_icons.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_icons.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_larger.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_larger.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_list.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_list.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_path.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_path.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_variables.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/line-icons.css" afterPath="$PROJECT_DIR$/assets/austin/fonts/line-icons.css" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/art/hacker_noon.jpeg" afterPath="$PROJECT_DIR$/assets/austin/img/art/hacker_noon.jpeg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/background/bg-1.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/background/bg-1.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/background/countdown.png" afterPath="$PROJECT_DIR$/assets/austin/img/background/countdown.png" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/rsa-house---great-room-header-image-hi--res-1200x450.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/gallery/rsa-house---great-room-header-image-hi--res-1200x450.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/david-smith-photo-e1528814640324.png" afterPath="$PROJECT_DIR$/assets/austin/img/judges/david-smith-photo-e1528814640324.png" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/nealormsbee.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/judges/nealormsbee.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/CompliFi.pdf" afterPath="$PROJECT_DIR$/assets/austin/img/project_submissions/CompliFi.pdf" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Complifi.png" afterPath="$PROJECT_DIR$/assets/austin/img/project_submissions/Complifi.png" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Fish_Brains.png" afterPath="$PROJECT_DIR$/assets/austin/img/project_submissions/Fish_Brains.png" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Symptom.MInimizer.pdf" afterPath="$PROJECT_DIR$/assets/austin/img/project_submissions/Symptom.MInimizer.pdf" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/dreamstime_xxl_40876052.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/project_submissions/dreamstime_xxl_40876052.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/sympton_minimizer.png" afterPath="$PROJECT_DIR$/assets/austin/img/project_submissions/sympton_minimizer.png" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/rDIfwqx-london-desktop-wallpaper.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/rDIfwqx-london-desktop-wallpaper.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/AdobeStock_139999923.jpeg" afterPath="$PROJECT_DIR$/assets/austin/img/slider/AdobeStock_139999923.jpeg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide-1.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/slider/slide-1.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide1.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/slider/slide1.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide2.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/slider/slide2.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide3.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/slider/slide3.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/L7_logo_CORPORATE_CMYK (1).jpg" afterPath="$PROJECT_DIR$/assets/austin/img/sponsors/L7_logo_CORPORATE_CMYK (1).jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/suliman_sharif_profile.png" afterPath="$PROJECT_DIR$/assets/austin/img/team/suliman_sharif_profile.png" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-04.jpg" afterPath="$PROJECT_DIR$/assets/austin/img/team/team-04.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/austin/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery-min.js" afterPath="$PROJECT_DIR$/assets/austin/js/jquery-min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery.countdown.min.js" afterPath="$PROJECT_DIR$/assets/austin/js/jquery.countdown.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/assets/austin/js/jquery.easing.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery.nav.js" afterPath="$PROJECT_DIR$/assets/austin/js/jquery.nav.js" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery.slicknav.js" afterPath="$PROJECT_DIR$/assets/austin/js/jquery.slicknav.js" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/main.js" afterPath="$PROJECT_DIR$/assets/austin/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/nivo-lightbox.js" afterPath="$PROJECT_DIR$/assets/austin/js/nivo-lightbox.js" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/popper.min.js" afterPath="$PROJECT_DIR$/assets/austin/js/popper.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/wow.js" afterPath="$PROJECT_DIR$/assets/austin/js/wow.js" />
+      <change beforePath="$PROJECT_DIR$/assets/home/css/base.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/home/css/demo1.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/home/js/OrbitControls.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/home/js/TweenMax.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/home/js/demo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/home/js/demo1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/home/js/perlin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/home/js/three.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/animate.min.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/animate.min.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/component.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/component.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/flaticon.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/flaticon.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/owl.carousel.min.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/owl.carousel.min.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/owl.theme.default.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/owl.theme.default.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/responsive.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/responsive.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/scrolling-nav.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/scrolling-nav.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/css/style.css" afterPath="$PROJECT_DIR$/assets/global_chem_main/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/Flaticon.eot" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/Flaticon.eot" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/Flaticon.ttf" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/Flaticon.ttf" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/Flaticon.woff" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/Flaticon.woff" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/flaticon.html" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/flaticon.html" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/assets/london/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/bg/herpes-viruses-and-antibodies-PJENMEM.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/bg/herpes-viruses-and-antibodies-PJENMEM.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/bg/human-heart-radiology-exam-AQ26D78_000.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/bg/human-heart-radiology-exam-AQ26D78_000.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/bg/human-pathogenic-virus-and-bacterias-under-PXSCE7K-compressor.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/bg/human-pathogenic-virus-and-bacterias-under-PXSCE7K-compressor.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/bg/thames-river-in-london-at-night-PFSRR9A.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/bg/thames-river-in-london-at-night-PFSRR9A.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/blog/hacker-using-keyboard-typing-phishing-on-the-PS9AYWN (1).jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/blog/hacker-using-keyboard-typing-phishing-on-the-PS9AYWN (1).jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/blog/hacker-using-keyboard-typing-phishing-on-the-PS9AYWN.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/blog/hacker-using-keyboard-typing-phishing-on-the-PS9AYWN.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/blog/in-office-P2H5EBH-compressor.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/blog/in-office-P2H5EBH-compressor.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/blog/lifescihack-compressor.jpeg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/blog/lifescihack-compressor.jpeg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/blog/microphone-in-modern-radio-station-broadcasting-P457XK8-compressor.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/blog/microphone-in-modern-radio-station-broadcasting-P457XK8-compressor.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/close.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/close.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/colors.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/colors.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/favicon.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/favicon.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/icon/noun_AI_2324354.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/icon/noun_Big data_2677336.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/icon/noun_Data_2605396.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/icon/noun_education_2315390.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/icon/noun_options_638516.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/left-img.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/left-img.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/light-box-close.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/light-box-close.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/loading.gif" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/loading.gif" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/156x118-logo-colourways-blue.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/156x118-logo-colourways-blue.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/Francs Crick logo.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Francs Crick logo.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM alias" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM alias" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM alias 2" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM alias 2" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM copy.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM copy.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/download.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/download.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/luc_hoffmann_4c.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/luc_hoffmann_4c.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/oxai.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/oxai.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/logo/synthace-logo-for-press-releases.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/logo/synthace-logo-for-press-releases.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/news_outlets/Thumb-The-list.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/Thumb-The-list.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/news_outlets/ae-logo.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/ae-logo.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/news_outlets/billetto-logo.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/billetto-logo.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/news_outlets/essential-logo.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/essential-logo.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/news_outlets/hackathon_logo.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/hackathon_logo.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/news_outlets/london-tourism.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/london-tourism.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/news_outlets/psf-logo@2x.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/psf-logo@2x.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/news_outlets/python-logo-vector.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/python-logo-vector.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/news_outlets/wcwglogotypemobile2.gif" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/wcwglogotypemobile2.gif" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/next.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/next.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/noun_molecule_490570.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/noun_molecule_490570.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/preloder.gif" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/preloder.gif" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/prev.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/prev.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/right-img.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/right-img.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/Aylin_Crop copy.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Aylin_Crop copy.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/Aylin_Crop.png" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Aylin_Crop.png" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/Aylin_Crop.png alias" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Aylin_Crop.png alias" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/Aylin_Crop.png alias 2" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Aylin_Crop.png alias 2" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/Melanie_Ryan_bw.jpg alias" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Melanie_Ryan_bw.jpg alias" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/Melanie_Ryan_bw.jpg alias 2" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Melanie_Ryan_bw.jpg alias 2" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/charlotte.capitanchik-compressor copy.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/charlotte.capitanchik-compressor copy.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/charlotte.capitanchik-compressor.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/charlotte.capitanchik-compressor.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/charlotte.capitanchik-compressor.jpg alias" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/charlotte.capitanchik-compressor.jpg alias" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/charlotte.capitanchik-compressor.jpg alias 2" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/charlotte.capitanchik-compressor.jpg alias 2" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/fane_mensah copy.JPG" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/fane_mensah copy.JPG" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/fane_mensah.JPG" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/fane_mensah.JPG" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/fane_mensah.JPG alias" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/fane_mensah.JPG alias" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/fane_mensah.JPG alias 2" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/fane_mensah.JPG alias 2" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/stephanie_wright copy.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/stephanie_wright copy.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/stephanie_wright.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/stephanie_wright.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/stephanie_wright.jpg alias" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/stephanie_wright.jpg alias" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/stephanie_wright.jpg alias 2" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/stephanie_wright.jpg alias 2" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/tvdh copy.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/tvdh copy.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/tvdh.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/tvdh.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/tvdh.jpg alias" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/tvdh.jpg alias" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/speakers/tvdh.jpg alias 2" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/tvdh.jpg alias 2" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/sponsor_information/sponsor_deck.pdf" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/sponsor_information/sponsor_deck.pdf" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/venue/great_room-compressor.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/venue/great_room-compressor.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/images/venue/tavern_room-compressor.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/venue/tavern_room-compressor.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/app.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/countdown.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/countdown.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/custom.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/custom.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/jarallax.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/jarallax.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/jquery.counterup.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.counterup.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.easing.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/jquery.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/jquery.plate.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.plate.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/jquery.scrollUp.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.scrollUp.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.waypoints.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/jquery.youtubebackground.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.youtubebackground.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/map.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/map.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/owl.carousel.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/particles.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/particles.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/scrolling-nav.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/scrolling-nav.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/js/wow.min.js" afterPath="$PROJECT_DIR$/assets/global_chem_main/js/wow.min.js" />
+      <change beforePath="$PROJECT_DIR$/assets/london/php/contact.php" afterPath="$PROJECT_DIR$/assets/global_chem_main/php/contact.php" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="991">
+              <caret line="185" column="104" lean-forward="false" selection-start-line="185" selection-start-column="104" selection-end-line="185" selection-end-column="104" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h3#0;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h3#0;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h3#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/data.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="education.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/education.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="options.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/options.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ai.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/ai.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="big_data.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/big_data.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orange.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/orange.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="1097" column="32" lean-forward="true" selection-start-line="1097" selection-start-column="32" selection-end-line="1097" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>h4</find>
+      <find>background-im</find>
+      <find>main-banner</find>
+      <find>jumbotron</find>
+      <find>navbar</find>
+      <find>speakers</find>
+      <find>t</find>
+      <find>color</find>
+      <find>icon</find>
+      <find>logo</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/assets</dir>
+      <dir>$PROJECT_DIR$/assets/austin</dir>
+      <dir>$PROJECT_DIR$/assets/global_chem_main</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/london/css/style.css" />
+        <option value="$PROJECT_DIR$/assets/global_chem_main/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Google App Engine (Python)</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Pyramid</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="austin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="austin" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="austin" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="austin" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="global_chem_main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="global_chem_main" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="global_chem_main" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="global_chem_main" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/global_chem_main/images/icon" />
+      <recent name="$PROJECT_DIR$/assets/global_chem_main/images" />
+      <recent name="$PROJECT_DIR$/assets/london/images" />
+      <recent name="$PROJECT_DIR$/assets/austin/img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/global-chem-website/index.html" />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f3c73f2-c0a3-4d3f-9c8a-52a24c73a061" name="Default" comment="" />
+      <created>1661709718812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661709718812</updated>
+      <workItem from="1661709720605" duration="4230000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4230000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/space.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/orange.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="1097" column="32" lean-forward="true" selection-start-line="1097" selection-start-column="32" selection-end-line="1097" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_Data_2605396.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_AI_2324354.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/ai.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_options_638516.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/options.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/education.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_education_2315390.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="185" column="104" lean-forward="false" selection-start-line="185" selection-start-column="104" selection-end-line="185" selection-end-column="104" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#1;n#div#0;n#div#6;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/data.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_Big data_2677336.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/big_data.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
