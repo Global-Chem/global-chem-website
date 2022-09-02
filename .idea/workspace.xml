@@ -3,51 +3,117 @@
   <component name="ChangeListManager">
     <list default="true" id="3f3c73f2-c0a3-4d3f-9c8a-52a24c73a061" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/156x118-logo-colourways-blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Francs Crick logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM alias" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM alias 2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM copy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/Screen Shot 2019-10-02 at 6.07.16 PM.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/download.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/luc_hoffmann_4c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/oxai.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo/synthace-logo-for-press-releases.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/Thumb-The-list.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/ae-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/billetto-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/essential-logo.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/hackathon_logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/london-tourism.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/psf-logo@2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/python-logo-vector.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/news_outlets/wcwglogotypemobile2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/space.jpg" afterPath="$PROJECT_DIR$/assets/global_chem_main/images/space.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Aylin_Crop copy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Aylin_Crop.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Aylin_Crop.png alias" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Aylin_Crop.png alias 2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Melanie_Ryan_bw.jpg alias" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/Melanie_Ryan_bw.jpg alias 2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/charlotte.capitanchik-compressor copy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/charlotte.capitanchik-compressor.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/charlotte.capitanchik-compressor.jpg alias" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/charlotte.capitanchik-compressor.jpg alias 2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/fane_mensah copy.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/fane_mensah.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/fane_mensah.JPG alias" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/fane_mensah.JPG alias 2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/stephanie_wright copy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/stephanie_wright.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/stephanie_wright.jpg alias" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/stephanie_wright.jpg alias 2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/tvdh copy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/tvdh.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/tvdh.jpg alias" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/speakers/tvdh.jpg alias 2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/sponsor_information/sponsor_deck.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/venue/great_room-compressor.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/venue/tavern_room-compressor.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/LifeSciHackLogo_Black.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/LifeSciHackLogo_White.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/DNA_binary_code-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/Data-Transfer-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/Data_Science_Analysis-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/about.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/data-science-atom-around-of-server-icon-silhouette-in-color-gradient-from-purple-to-gm.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/data-science-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/download (2).png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/head_with_subjectsinline.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/inter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/art/a1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/art/a2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/art/hacker_noon.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/background/bg-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/background/bg-pricing.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/background/countdown.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/blog/img-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/blog/img-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/blog/img-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/dotTexture.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/rsa-house---great-room-header-image-hi--res-1200x450.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/david-smith-photo-e1528814640324.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/kevin_smith.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/monica_berrondo.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/nealormsbee.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/location.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/CompliFi.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Complifi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Fish_Brains.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Images for Life Sci Hack_Austin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Images for Life Sci Hack_Austin2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Images for Life Sci Hack_Austin3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Symptom.MInimizer.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/dreamstime_xxl_40876052.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/sympton_minimizer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/rDIfwqx-london-desktop-wallpaper.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/1184351.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/148-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/79257888-stock-vector-celebration-winner-cup-first-place-award-mono-line-icon-best-results-on-performance-.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/99-996523_[-img]-adventure-time-sandwich.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/9ce85902d77058290a3e16713b62b6c8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/Coding-Html-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/EGG-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/Happy_Man_Human_Resource__Life_Style_C-69-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/Map_marker-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/Refreshements-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/closed-tag-icon-vector-20283467.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/git-default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/mentor-help-assistant-leadership-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/presentations-icon.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/strategy-planning-position-formation-team-512.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/thumb-delicious-sandwich-food-cute-kawaii-cartoon-vector.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/AdobeStock_139999923.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/ExperimentalCivics_Logo_ImageOnlyRGB.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/pexels-photo-1059161.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/pexels-photo-220989.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/pexels-photo-397998.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/speaker/speakers-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/speaker/speakers-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/speaker/speakers-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/speaker/speakers-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/speakers/Hugh-Forrest-Photo-by-Dylan-O_Connor-copy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/speakers/Hugh_Forrest.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/Helmsley.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/L7_logo_CORPORATE_CMYK (1).jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/Oxford-University-rectangle-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/Swyft_600x206.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/logo-01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/logo-02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/logo-03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/logo-04.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/sxsw-logo-horizontal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/welogo_black.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/welogo_white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/wework-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/women_who_code.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/support/mozilla-logo-bw-rgb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/amanda_ross.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/neal.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/sarah_image.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/scott_image.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/suliman_sharif_profile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/colors.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/left-img.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,20 +124,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="orange.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/orange.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preloder.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/preloder.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="prev.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/prev.png">
           <provider selected="true" editor-type-id="images">
@@ -86,29 +138,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="space.jpg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="space.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/space.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="education.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/education.png">
+      <file leaf-file-name="close.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/close.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="options.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/options.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo.png">
+      <file leaf-file-name="light-box-close.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/light-box-close.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -121,8 +166,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="noun_molecule_490570.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/noun_molecule_490570.png">
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orange.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/orange.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preloder.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/preloder.gif">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -245,6 +304,12 @@
               <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="austin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="global_chem_main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -253,14 +318,6 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="global_chem_main" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="global_chem_main" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="icon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -402,12 +459,12 @@
       <updated>1661709718812</updated>
       <workItem from="1661709720605" duration="6327000" />
       <workItem from="1662032642934" duration="631000" />
-      <workItem from="1662138993054" duration="182000" />
+      <workItem from="1662138993054" duration="452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7140000" />
+    <option name="totallyTimeSpent" value="7410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -483,110 +540,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/css/scrolling-nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/data.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/education.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/options.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/big_data.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24675">
-          <caret line="1645" column="0" lean-forward="false" selection-start-line="1645" selection-start-column="0" selection-end-line="1645" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.xyz">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1605">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.xyz">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/css/scrolling-nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/data.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/education.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/options.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -693,11 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/light-box-close.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo/156x118-logo-colourways-blue.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -723,7 +671,112 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo.png">
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/noun_molecule_490570.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/right-img.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/img3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/img1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/head_with_subjectsinline.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/Data_Science_Analysis-512.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/data-science-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/data-science-atom-around-of-server-icon-silhouette-in-color-gradient-from-purple-to-gm.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/about.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/dotTexture.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/gallery/img-2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/gallery/img-4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/gallery/rsa-house---great-room-header-image-hi--res-1200x450.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/space.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/location.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/LifeSciHackLogo_White.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/austin/img/LifeSciHackLogo_Black.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/colors.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/left-img.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/light-box-close.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -733,12 +786,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/orange.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/noun_molecule_490570.png">
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -753,12 +801,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/right-img.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/space.jpg">
+    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/orange.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
