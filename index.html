@@ -1,477 +1,764 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
 
 <head>
-
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Global-Chem: Common Chemical Names Dictionary</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="global-chem cheminformatics chemoinformatics drugs machine learning artificial intelligence">
-    <meta name="author" content="sulstice">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/global_chem_main/images/logo.png">
-    <link rel="shortcut icon" type="image/png" href="assets/global_chem_main/images/logo.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.ico">
 
-    <title>Global-Chem</title>
+    <!-- all css here -->
+    <!-- bootstrap v5.1.0 css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- icofont css -->
+    <link rel="stylesheet" href="css/icofont.css">
+    <!-- Nivo css -->
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <!-- animaton text css -->
+    <link rel="stylesheet" href="css/animate-text.css">
+    <!-- datepicker css -->
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <!-- Metrial iconic fonts css -->
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- color css -->
+    <link href="css/color/skin-default.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="assets/global_chem_main/css/bootstrap.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/global_chem_main/css/style.css">
-
-    <!-- Responsive stylesheet  -->
-    <link rel="stylesheet" type="text/css" href="assets/global_chem_main/css/responsive.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/austin/fonts/line-icons.css">
-    <link rel="stylesheet" type="text/css" href="assets/austin/css/animate.css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <!-- modernizr css -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-<!-- Preloader -->
-<div id="preloader">
-    <div id="status"></div>
-</div>
+    <!--body-wraper-are-start-->
+    <div class="wrapper home-parallax">
 
-<!-- Banner Start -->
-<section class="main-banner" style="">
-    <div id="particles-js" style="position: absolute; z-index: 1; top: 0; left: 0;" class="banner-wrapper">
-        <div class="container">
-            <div class="row h-100">
-                <div class="col-md-12">
-                    <div class="header-banner header-banner-content jumbotron" style="background: none; z-index: 1;">
-                        <h4 style="margin-top: 180px;font-size: 46px;">Global-Chem</h4>
-                        <h4 style="margin-top: 180px;font-size: 46px;">What are the Common Chemicals in Our World</h4>
-                        <a href="#about" class="page-scroll"><i class="fa fa-angle-down down-arrow"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<header class="main-header">
-    <!-- Navigation Start -->
-    <div class="main-nav nav-bottom">
-        <nav class="navbar navbar-default" id="navbar-main">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li> <a class="page-scroll" href="#page-top">Home</a> </li>
-                        <li> <a class="page-scroll" href="#about">About</a> </li>
-                        <li> <a class="page-scroll" href="#community">Community</a> </li>
-                        <li> <a class="page-scroll" href="#schedules">Project Schedule</a> </li>
-                        <li> <a class="page-scroll" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
-    </div>
-</header>
-
-
-<!-- About Start -->
-<section class="about-area" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="about-col">
-                    <h3 style="font-size: 70px; font-family: sans-serif; letter-spacing: normal"><span style="color: #ec971f; text-transform: none">Open Source Governance</span></h3>
-                    <p style="font-size: 20px">
-                        <b> Global-Chem </b>is a record of what is common in the world of all molecules for all different communities of people. It is a dictionary of common names that humans use for example
-
-                        with the molecule written directly, for example  Vitamin C is: <br /><br/> C(C(C1C(=C(C(=O)O1)O)O)O)O <br /> <br />
-
-                        The molecular structure is not ambigious to us the people as long as we keep an accurate record of what names are corresponding to what molecule.
-                        We have a hard time understanding what is actually inside of the products or things we use commonly and it is affecting our health and our planet. We need to organize our common knowledge together into an organized global knowledge graph and learn how all these molecules relate to each other.
-                        What is in your Food? What inactive ingredients are in your Medicines? Sex, Cannabis, War, the lists of chemical products is infinite we need to understand how our world works as a community of people and have the molecules that we use in modern society governed by us, the open source community.
-
-                        Global-Chem is the first Open Source Knowledge Graph of Chemical List Governed by the People.
-                </div>
-            </div>
-            <div class="col-md-12">
-                <img class="main-logo" src="assets/global_chem_main/images/logo.png" alt="">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Services Section Start -->
-<section id="services" class="services section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title-header text-center">
-                    <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Project Links</h1>
-                </div>
-            </div>
-        </div>
-        <div class="row services-wrapper" style="margin-bottom: 60px;">
-            <!-- Services item -->
-            <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
-                    <div class="icon"  style="display: flex; justify-content: center; align-items: center">
-                        <a href="https://github.com/Sulstice/global-chem"><img src="assets/global_chem_main/images/icon/data.png" alt="" style="height: 250px; width: 250px;" class="img-challenge"></a>
-                    </div>
-                    <div class="services-content">
-                        <h3><a href="#" style="display: flex; justify-content: center; align-items: center">Software</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Services item -->
-            <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                <div class="services-item wow fadeInDown" data-wow-delay="0.4s">
-                    <div class="icon"  style="display: flex; justify-content: center; align-items: center">
-                        <a href="https://sulstice.gitbook.io/globalchem-your-chemical-graph-network/"><img src="assets/global_chem_main/images/icon/big_data.png" alt="" style="height: 250px; width: 250px;" class="img-challenge"></a>
-                    </div>
-                    <div class="services-content">
-                        <h3><a href="#" style="display: flex; justify-content: center; align-items: center">Documentation</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Services item -->
-            <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
-                    <div class="icon"  style="display: flex; justify-content: center; align-items: center">
-                        <a href="https://github.com/Sulstice/global-chem/edit/master/academic/paper.md"><img src="assets/global_chem_main/images/icon/education.png" alt="" style="height: 250px; width: 250px;" class="img-challenge"></a>
-                    </div>
-                    <div class="services-content">
-                        <h3><a href="#" style="display: flex; justify-content: center; align-items: center">Academic Paper</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Services item -->
-            <div class="col-md-2 col-lg-2 col-xs-2 padding-none">
-            </div>
-            <!-- Services item -->
-            <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                <div class="services-item wow fadeInDown" data-wow-delay="0.8s">
-                    <div class="icon"  style="display: flex; justify-content: center; align-items: center">
-                        <a href="https://www.chemicalgraphtheory.com"><img src="assets/global_chem_main/images/icon/ai.png" alt="" style="height: 250px; width: 250px;" class="img-challenge"></a>
-                    </div>
-                    <div class="services-content">
-                        <h3><a href="#" style="display: flex; justify-content: center; align-items: center">Knowledge Graph</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Services item -->
-            <div class="col-md-2 col-lg-4 col-xs-12 padding-none">
-            </div>
-            <!-- Services item -->
-            <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-                <div class="services-item wow fadeInDown" data-wow-delay="1s">
-                    <div class="icon"  style="display: flex; justify-content: center; align-items: center">
-                        <a href="https://www.chemicalgraphtheory.com/front_end/flashcards/src/index.html"><img src="assets/global_chem_main/images/icon/options.png" alt="" style="height: 250px; width: 250px;" class="img-challenge"></a>
-                    </div>
-                    <div class="services-content">
-                        <h3><a href="#" style="display: flex; justify-content: center; align-items: center">FlashCards</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- Community Start -->
-<section class="speakers-area parallax" id="community">
-    <div class="container">
-        <!--<div class="row">-->
-            <!--<div class="col-md-8 col-md-offset-2">-->
-                <!--<div class="section-title">-->
-                    <!--<h2>Our Project Statistics</h2>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    </div>
-</section>
-
-
-<!-- Schedules Start -->
-<section class="schedule-area" id="schedules">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="section-title">
-                    <h2>Project <span>Schedule</span></h2>
-                    <br />
-                    <button class="btn btn-default my-btn btn-color text-center" onclick="document.getElementById('first_day').style.display=''; document.getElementById('second_day').style.display='none';">Chemical Space Exploration Plan</button>
-                    <button class="btn btn-default my-btn btn-color text-center" onclick="document.getElementById('first_day').style.display='none'; document.getElementById('second_day').style.display='';">Software Development Plan</button>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="table-responsive schedule-table">
-                <table class="table table-bordered" id="first_day">
-                    <thead>
-                    <tr>
-                        <th>Release</th>
-                        <th>Chemical List Description</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="table-row-bg">
-                        <td>2.1.0</td>
-                        <td>Textile Dyes</td>
-                    </tr>
-                    <tr>
-                        <td>2.1.0</td>
-                        <td>Hair Dyes</td>
-                    </tr>
-                    <tr>
-                    <tr class="table-row-bg">
-                        <td>1.8.0</td>
-                        <td>Snake Venoms</td>
-                    </tr>
-                    <tr>
-                        <td>3.0.0</td>
-                        <td>Sweat Chemical Makeup</td>
-                    </tr>
-                    <tr>
-                    <tr class="table-row-bg">
-                        <td>2.1.0</td>
-                        <td>Makeup</td>
-                    </tr>
-                        <td>2.1.0</td>
-                        <td>Ink For Pens and Pencils</td>
-                    </tr>
-                    <tr class="table-row-bg">
-                        <td>2.1.0</td>
-                        <td>Ink used for Tattooes</td>
-                    </tr>
-                        <td>2.1.0</td>
-                        <td>Skunks Chemical Makeup</td>
-                    </tr>
-                    <tr class="table-row-bg">
-                        <td>2.1.0</td>
-                        <td>Spider Venoms</td>
-                    </tr>
-                        <td>2.1.0</td>
-                        <td>Cursed Molecules</td>
-                    </tr>
-                    <tr class="table-row-bg">
-                        <td>2.1.0</td>
-                        <td>Forever Chemicals</td>
-                    </tr>
-                        <td>2.1.0</td>
-                        <td>Toxic Agents used for World War I</td>
-                    </tr>
-                        <td>2.1.0</td>
-                        <td>Toxic Agents used for World War II</td>
-                    </tr>
-                    <tr class="table-row-bg">
-                        <td>2.1.0</td>
-                        <td>Dyes used in High Fashion</td>
-                    </tr>
-                        <td>2.1.0</td>
-                        <td>Diamond Composition</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <table class="table table-bordered" id="second_day" style="display: none">
-                    <thead>
-                    <tr>
-                        <th>Release</th>
-                        <th>Software Task Description</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>1.8.0</td>
-                        <td>Collect For Molecules in Skin Care </td>
-                    </tr>
-                    <tr>
-                    <tr class="table-row-bg">
-                        <td>1.8.0</td>
-                        <td>Sunscreen Algorithm Needs to be Implemented to calculate SPF Values </td>
-                    </tr>
-                    <tr>
-                        <td>1.8.0</td>
-                        <td>Data Dive Through for Pericyclic Reactions</td>
-                    </tr>
-                    <tr>
-                    <tr class="table-row-bg">
-                        <td>1.8.0</td>
-                        <td>Flashcards Needs to Adjust for Common Reactions Visually </td>
-                    </tr>
-                    <tr>
-                        <td>1.8.0</td>
-                        <td>Algorithm to Figure out similarity between Chemical Reactions</td>
-                    </tr>
-                    <tr>
-                    <tr class="table-row-bg">
-                        <td>1.8.0</td>
-                        <td>Quality Assurance Plan For GlobalChem Extensions Software</td>
-                    </tr>
-                    <tr>
-                        <td>1.8.0</td>
-                        <td>Include Atom Type Chemical Diversity in the Sunburst</td>
-                    </tr>
-                    <tr>
-                    <tr class="table-row-bg">
-                        <td>1.8.0</td>
-                        <td>Include Atom Type Chemical Diversity in the Parallel Coordinates</td>
-                    </tr>
-                    <tr>
-                        <td>1.8.0</td>
-                        <td>Expand to Non-Natural Amino Acid Peptide Chains</td>
-                    </tr>
-                    <tr>
-                    <tr class="table-row-bg">
-                        <td>1.8.0</td>
-                        <td>PyTest Infrastructure is missing on some components of Extensions </td>
-                    </tr>
-                    <tr>
-                        <td>1.8.0</td>
-                        <td>Distance Tolerance testing of Levenshtein Algorithm for IUPAC Similarity Matching </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Start -->
-<section class="contact-area" id="contact" style="background: #f3f3f3;">
-    <div class="container">
-        <div class="row">
-            <div class="">
-                <div class="col-md-6 col-sm-6">
-                    <div class="contact-col contact-infobox">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <p>osglobalchem@gmail.com</p>
-
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="contact-col contact-infobox">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <p>Maryland, USA</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row contact-form-row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="row">
-                    <div class="contact-col">
-                        <form id="ajax-contact" role="form" name="contact-form" data-toggle="validator" action="https://formspree.io/osglobal@gmail.com" method="POST">
-                            <div class="col-md-6">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" name="email" id="email" class="form-control" placeholder="Your Email"  required>
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" name="subject" class="form-control" placeholder="Subject" id="subject" required>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="contact-textarea">
-                                    <textarea class="form-control" rows="6" placeholder="Write Message" id="message" name="message" required></textarea>
-                                    <button class="btn btn-default my-btn btn-color text-center" type="submit" value="Submit Form">Send Message</button>
+        <!--slider header area are start-->
+        <div class="header-slider-area" id="home">
+            <!--header start-->
+            <div class="header-area">
+                <!--header-top-start-->
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-8 d-none d-md-block">
+                                <div class="phone-email">
+                                    <div class="email"> <a href="mailto:company@domain.com"><i
+                                                class="zmdi zmdi-email-open"></i>osglobalchem@gmail.com</a> </div>
                                 </div>
                             </div>
-                            <div id="form-messages"></div>
-                        </form>
+                        </div>
+                    </div>
+                </div>
+                <!--header-top-end-->
+                <!--logo menu area start-->
+                <div id="sticker" class="logo-menu-area header-area-2">
+                    <div class="container d-none d-md-block">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-2">
+                            </div>
+                            <div class="col-lg-9 col-md-10">
+                                <div class="main-menu text-end">
+                                    <nav>
+                                        <ul id="nav">
+                                            <li><a href="#home">Home</a></li>
+                                            <li><a href="#about-event">About</a></li>
+                                            <li><a href="#happen">Happen</a></li>
+                                            <li><a href="#speakers">Contributors</a></li>
+                                            <li><a href="#contact">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mobile-menu-area start -->
+                    <div class="mobile-menu-area">
+                        <div class="container">
+                            <div class="logo-02">
+                                <a href="index.html"><img src="img/logo-02.png" alt=""></a>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <nav id="dropdown">
+                                        <ul>
+                                            <li><a href="#home">Home</a></li>
+                                            <li><a href="#about-event">About</a></li>
+                                            <li><a href="#happen">Happen</a></li>
+                                            <li><a href="#speakers">Maintainers</a></li>
+                                            <li><a href="#contact">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--mobile menu area end-->
+                </div>
+                <!--logo menu area start-->
+            </div>
+            <!-- header End-->
+
+            <!--slider area are start-->
+            <div class="slider-container bg-overlay animate-slide">
+                <div class="container">
+                    <div class="slide1-text parallex-slider-text animate-slider-text text-center">
+                        <div class="middle-text slide-def mb50 mb-md-0">
+                            <div class="cap-dec">
+                                <p>Open Source Governance</p>
+                            </div>
+                            <div class="cap-title cd-headline clip is-full-width">
+                                <h1>Global-Chem
+                                    <span class="cd-words-wrapper">
+                                        <b class="is-visible">From Common Chemical Names</b>
+                                        <b>To Molecules</b>
+                                    </span>
+                                </h1>
+                            </div>
+                            <div class="date-address">
+                                <div class="event-location"> <i class="zmdi zmdi-pin"></i>PyPi
+                                </div>
+                            </div>
+                            <div style="display: inline-flex">
+                            <div class="slider-btn d-none d-md-block" style="margin: 10px"> <a class="btn-def" href="https://gitcoin.co/grants/7709/global-chem-a-dictionary-of-chemical-names-to-mol" target="_blank">Sponsor</a> </div>
+                            <div class="slider-btn d-none d-md-block" style="margin: 10px"> <a class="btn-def" href="https://github.com/Sulstice/global-chem" target="_blank">Software</a> </div></div>
+                            <div class="slider-btn d-none d-md-block" style="margin: 10px"> <a class="btn-def" href="https://github.com/Sulstice/global-chem/blob/development/global_chem/global_chem_outputs/global_chem.tsv" target="_blank">Dictionary</a> </div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--slider area are End-->
+            <div class="down-arrow"> <a class="see-demo-btn" href="#about-event"><i
+                        class="zmdi zmdi-long-arrow-down"></i></a> </div>
+        </div>
+        <!--slider header area are end-->
+
+        <!--about area are start-->
+        <div class="about-area ptb100 fix" id="about-event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about-left">
+                            <div class="about-top">
+                                <h1 class="section-title">Our Mission</h1>
+                                <div class="total-step">
+                                    <div class="descp">
+                                        <p style="font-size: 20px; letter-spacing: 1px">We are writing the molecules to common chemical names that the general public use and keeping a record for all of us to download and maintain together.
+                                            We can all manage it as an open source governing community and use tools to declare whether these chemicals are safe or not for general use.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1 class="section-title">Our Plan</h1>
+                            <div class="total-step">
+                                <div class="about-step">
+                                    <h2 class="sub-title">Step 1: Gathering Data From the People, Academics, and Industry</h2>
+                                    <div class="descp">
+                                        <p>We hope to get chemical information from everywhere that could be expertise in the field: Cooking, Cleaning Products, Clothing, Makeup, Food, Pet Food, Environment, Sunscreen, Sexual Wellness, Oral Contraceptives, Chemical War, Medicinal Drugs, Vaccines, .</p>
+                                    </div>
+                                </div>
+                                <div class="about-step">
+                                    <h2 class="sub-title">Step 2: Create a Governing AI that we work with</h2>
+                                    <div class="descp">
+                                        <p>True General Artifical Intelligence comes from a variety of people and not one. Our AI is based off the data the people report to help us understand what we consume and use so we can understand medical conditions more and learn how to diagnose easily.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about-right">
+                            <ul>
+                                <li><i class="zmdi zmdi-calendar-note"></i>Work Began: April 19, 2019</li>
+                                <li><i class="zmdi zmdi-pin"></i>Almost 8+ Countries</li>
+                                <li><i class="zmdi zmdi-palette"></i>12,000+ Lines of Code</li>
+                                <li><i class="zmdi zmdi-google-maps"></i>19+ List Contributors</li>
+                                <li><i class="zmdi zmdi-accounts"></i>1.5 Million Views+ Across Social Media</li>
+                                <li><i class="zmdi zmdi-mic-setting"></i>3506 Chemicals Recorded</li>
+                                <li><i class="zmdi zmdi-cloud-download"></i>140K+ Downloads</li>
+                            </ul>
+                            <div class="about-btn"> <a href="https://github.com/Sulstice/global-chem/discussions" class="btn-def bnt-2" target="_blank">Contribute Your List</a> </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+        <!--about area are end-->
 
-<!-- Footer Start -->
-<footer class="footer-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-center">
-                <div class="col-md-6 col-sm-8">
-                    <div class="newsletter-col">
-                        <h4>Follow Our Github</h4>
+        <!--what-happen-area start-->
+        <div id="happen" class="what-happen-area ptb100 off-white fix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-title">What Is Happening in Our Community</h1>
+                        <div class="clearfix"></div>
+                        <div class="tab-menu-list pt20 mb70 text-center">
+                            <ul class="nav d-block happen-tab" role="tablist">
+                                <li role="presentation"><a class="active" href="#day-one" aria-controls="day-one"
+                                        role="tab" data-bs-toggle="tab">Software</a></li>
+                                <li role="presentation"><a href="#day-two" aria-controls="day-two" role="tab"
+                                        data-bs-toggle="tab">Chemical Lists</a></li>
+                                <li role="presentation"><a href="#day-three" aria-controls="day-three" role="tab"
+                                                           data-bs-toggle="tab">Compliance</a></li>
+                                <li role="presentation"><a href="#day-four" aria-controls="day-three" role="tab"
+                                        data-bs-toggle="tab">Sponsorship</a></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade show active" id="day-one">
+                                <div class="row">
+                                    <div class="total-happen">
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-rise"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>Verification and Validation</h3>
+                                                        <p>Quality Control of Software and Standardizing Data Curation</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">Quality Control Plan</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h1.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="https://github.com/users/Sulstice/projects/3/views/1" target="_blank">Github Project </a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--single happen end-->
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-rise"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>Software Expansion</h3>
+                                                        <p>Expanding the Software For Interoperability and Absorption</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">Software Development Plan</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h1.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="" target="_blank">Github Project </a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--single happen end-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="day-two">
+                                <div class="row">
+                                    <div class="total-happen">
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-set"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>Chemical Synthesis</h3>
+                                                        <p>Reactions That Are Used to Make Chemicals</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">Common Named Reactions</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h2.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/discussions/84" target="_blank">Github Discussion</a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-set"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>Cosmetics and Food</h3>
+                                                        <p>Chemicals Used in Makeup/Hair Dyes and Food for Colouring</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">Food Coloring Additive Lists</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h2.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/blob/development/global_chem/global_chem/food/color_additives/fda_list_one.py" target="_blank">Github List</a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-set"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>Wellness Products</h3>
+                                                        <p>Chemicals Used in Unregulated Wellness Products</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">Lubricants</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h2.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/blob/development/global_chem/global_chem/sex/exsens/lube.py" target="_blank">Github List</a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-set"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>Snake & Others Venoms</h3>
+                                                        <p>Chemicals used to explore anti-venoms for snakes</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">Therapeutics to use snake chemicals</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h2.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/blob/development/global_chem/global_chem/animals/snakes/drugs_from_snake_venom.py" target="_blank">Github List</a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="day-three">
+                                <div class="row">
+                                    <div class="total-happen">
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-alt"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>U.S Compliance</h3>
+                                                        <p>21 Part 11 CFR Electronic Records Compliance for Open Source</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">Installation, Operational, and Qualification Documentation</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h4.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/blob/production/compliance_and_quality_assurance/qualification_document.md" target="_blank">Testing Software</a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--single happen end-->
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-set"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>European FAIR Software Compliance</h3>
+                                                        <p>Compliance standards for a FAIR software</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">FAIR Compliance Bot</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h5.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/actions/workflows/fair_compliance_check.yml" target="_blank">Github Action</a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--single happen end-->
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-rise"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>Open Source License and Management</h3>
+                                                        <p>Reports of open source licensing and management</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">FOSSA Reports</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h3.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="https://app.fossa.com/projects/git%2Bgithub.com%2FSulstice%2Fglobal-chem/refs/branch/master/ad75524f7325b578cb0d78c220de6eeecc4f07c0/preview" target="_blank">FOSSA Report</a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--single happen end-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="day-four">
+                                <div class="row">
+                                    <div class="total-happen">
+                                        <!--single happen start-->
+                                        <div class="col-lg-12">
+                                            <div class="single-happen">
+                                                <div class="happen-top mb30">
+                                                    <div class="happen-icon">
+                                                        <i class="icofont icofont-sun-alt"></i>
+                                                    </div>
+                                                    <div class="happen-time-date">
+                                                        <h3>GitCoin Grant</h3>
+                                                        <p>Sponsor us Through Cryptocurrency and GitCoin</p>
+                                                    </div>
+                                                </div>
+                                                <div class="happen-bottom">
+                                                    <h3 class="happen-heading uppercase">Grant Sponsorship</h3>
+                                                    <div class="happen-details">
+                                                        <div class="happen-img">
+                                                            <img src="img/team/h4.png" alt="">
+                                                        </div>
+                                                        <div class="happen-text">
+                                                            <p class="uppercase"><strong><a href="https://gitcoin.co/grants/7709/global-chem-a-dictionary-of-chemical-names-to-mol" target="_blank">Link</a></strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--single happen end-->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-12">
-                <div class="footer-col hi-icon-wrap hi-icon-effect-4 hi-icon-effect-4b">
-                    <a href="https://github.com/Sulstice/global-chem" class="hi-icon">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
+        </div>
+        <!--what-happen-area end-->
+
+        <!--speaker section start-->
+        <div id="speakers" class="speaker-area pt100 pb85">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-title">Honorable Open Source Contributors</h1>
+                        <div class="total-speaker crasoule-btn">
+                            <!--single-speaker-->
+                            <div class="speaker-item">
+                                <div class="single-speaker shadow-box text-center">
+                                    <img src="img/team/sul.jpeg" alt="">
+                                    <h4 class="speaker-name uppercase"><strong>Suliman Sharif</strong></h4>
+                                    <p class="speaker-deg">Founder</p>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="https://github.com/Sulstice" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/in/sulimansharif/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single-speaker-->
+                            <!--single-speaker-->
+                            <div class="speaker-item">
+                                <div class="single-speaker shadow-box text-center">
+                                    <img src="img/team/ruibin.jpeg" alt="">
+                                    <h4 class="speaker-name uppercase"><strong>Ruibin Liu</strong></h4>
+                                    <p class="speaker-deg">Maintainer</p>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="https://github.com/Ruibin-Liu" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single-speaker-->
+                            <!--single-speaker-->
+                            <div class="speaker-item">
+                                <div class="single-speaker shadow-box text-center">
+                                    <img src="img/team/betty.jpeg" alt="">
+                                    <h4 class="speaker-name uppercase"><strong>Bettina Lier</strong></h4>
+                                    <p class="speaker-deg">Maintainer</p>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="https://github.com/LierB" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single-speaker-->
+                            <!--single-speaker-->
+                            <div class="speaker-item">
+                                <div class="single-speaker shadow-box text-center">
+                                    <img src="img/team/daniel2.jpeg" alt="">
+                                    <h4 class="speaker-name uppercase"><strong>Daniel Khavrutskii</strong></h4>
+                                    <p class="speaker-deg">Developer</p>
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li><a href="https://github.com/dhavdc" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single-speaker-->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+        <!--speaker section end-->
 
-<section class="footer-copy-right text-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p>Global-Chem <a href="https://github.com/Sulstice/global-chem" target="_blank"></a> All Rights Reserved.</p>
+        <!--up comming events area-->
+        <div class="upcomming-events-area off-white ptb100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-title">Conference Talks</h1>
+                        <div class="total-upcomming-event">
+                            <div class="single-upcomming shadow-box">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="sue-pic" style="margin-top: 20px">
+                                            <img src="img/event/isqbp.png" style="height: 80px; width: 100px;" alt="">
+                                        </div>
+                                        <div class="sue-date-time text-center">
+                                            <span>May <br> 2021</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-5">
+                                        <div class="uc-event-title">
+                                            <div class="uc-icon"><i class="zmdi zmdi-globe-alt"></i></div>
+                                            <a href="#">CGenFF Compass: A Lexical Dictionary Bridge From Functional Groups to Their Atom Types</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4">
+                                        <div class="upcomming-ticket text-center">
+                                            <a href="https://github.com/Sulstice/Resumes/blob/main/presentations/isqbp_meeting%20(4).pdf" target="_blank" class="btn-def bnt-2 small">Presentation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-upcomming shadow-box">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="sue-pic" style="margin-top: 40px">
+                                            <img src="img/event/isb.png" style="height: 80px; width: 160px;" alt="">
+                                        </div>
+                                        <div class="sue-date-time text-center">
+                                            <span>June <br> 2022</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-5">
+                                        <div class="uc-event-title">
+                                            <div class="uc-icon"><i class="zmdi zmdi-globe-alt"></i></div>
+                                            <a>Global-Chem: A Chemical Knowledge Graph of common small molecules and their IUPAC/SMILES/SMARTS for selection of compounds relevant to diverse chemical communities</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4">
+                                        <div class="upcomming-ticket text-center">
+                                            <a href="https://github.com/Sulstice/Resumes/blob/main/presentations/ISB_2022_meeting.pdf" target="_blank" class="btn-def bnt-2 small">Presentation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
+        <!--up comming events area-->
+
+        <!-- speacial offer are start  -->
+        <div class="special-offer-area parallex-fixed ptb100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="special-wrap">
+                            <h1 class="section-title white-color">Join Our Community, Be Aware of the Chemicals  </h1>
+                            <p class="white-color" style="font-size: 20px">Be Aware of the Chemicals you are putting in your body and join us
+                            in keep tracking of what unregulated products we as a community should start regulating</p>
+                            <a href="https://github.com/Sulstice/global-chem" target="_blank" class="btn-def bnt-3 red-color">Star Our Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- speacial offer are end  -->
+
+        <!--call to action area start-->
+        <div class="call-to-action bg-overlay white-overlay parallex-fixed pb100 pt85">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cal-to-wrap">
+                            <h1 class="section-title">Enter Your Email Address For Events & News</h1>
+                            <form action="#">
+                                <div class="input-box">
+                                    <input type="email" placeholder="Enter your E-mail Address" class="info"
+                                        name="email">
+                                    <button class="send-btn"><i class="zmdi zmdi-mail-send"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--call to action area End-->
+
+        <!--information area are start-->
+        <div class="information-area off-white ptb100" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="single-information text-center">
+                            <div class="info-icon">
+                                <i class="zmdi zmdi-email-open"></i>
+                            </div>
+                            <h4>E-Mail</h4>
+                            <p><a href="mailto:company@email.com">osglobalchem@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--information area are start-->
+
+        <!--footer area are start-->
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="social-area">
+                            <ul>
+                                <li><a href="https://github.com/Sulstice/global-chem"><i class="zmdi zmdi-github"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="payment-area">
+                            <ul>
+                                <li><a href=""><img src="img/icon/pay-01.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/icon/pay-02.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/icon/pay-03.jpg" alt=""></a></li>
+                                <li><a href=""><img src="img/icon/pay-04.jpg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer area are start-->
     </div>
-</section>
-<!-- Footer Style Background ten End -->
+    <!--body-wraper-are-end-->
 
-<!-- jQuery -->
-<script src="assets/global_chem_main/js/jquery.min.js"></script>
-
-<!-- Bootstrap Min js -->
-<script src="assets/global_chem_main/js/bootstrap.min.js"></script>
-<!-- scrolling-nav JS -->
-<script src="assets/global_chem_main/js/scrolling-nav.js"></script>
-<!-- jquery easing JS -->
-<script src="assets/global_chem_main/js/jquery.easing.min.js"></script>
-<!-- counterup -->
-<script src="assets/global_chem_main/js/jquery.counterup.min.js"></script>
-<!-- carousel -->
-<script src="assets/global_chem_main/js/owl.carousel.min.js"></script>
-<!-- wow js -->
-<script src="assets/global_chem_main/js/wow.min.js"></script>
-<!-- particles js -->
-<script src="assets/global_chem_main/js/particles.min.js"></script>
-<!-- app js -->
-<script src="assets/global_chem_main/js/app.js"></script>
-<!-- countdown JS -->
-<script src="assets/global_chem_main/js/countdown.js"></script>
-<!-- jquery.plate JS -->
-<script src="assets/global_chem_main/js/jquery.plate.js"></script>
-<!-- jarallax JS -->
-<script src="assets/global_chem_main/js/jarallax.min.js"></script>
-<!-- jquery scrollUp  JS -->
-<script src="assets/global_chem_main/js/jquery.scrollUp.min.js"></script>
-
-
-<!-- Map API Key -->
-
-<!-- Main Custom JS -->
-<script src="assets/global_chem_main/js/custom.js"></script>
-
+    <!--==== all js here====-->
+    <!-- jquery latest version -->
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- meanmenu js -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- Nivo js -->
+    <script src="js/nivo-slider/jquery.nivo.slider.pack.js"></script>
+    <script src="js/nivo-slider/nivo-active.js"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <!-- Vedio js -->
+    <script src="js/video.js"></script>
+    <!-- Youtube Background JS -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- datepicker js -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <!-- waypoint js -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- onepage nav js -->
+    <script src="js/jquery.nav.js"></script>
+    <!-- animate text JS -->
+    <script src="js/animate-text.js"></script>
+    <!-- plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- ajax-mail js -->
+    <script src="js/ajax-mail.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

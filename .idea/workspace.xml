@@ -2,118 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3c73f2-c0a3-4d3f-9c8a-52a24c73a061" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/team/betty.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/team/ruibin.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/team/sul.jpeg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/LifeSciHackLogo_Black.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/LifeSciHackLogo_White.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/DNA_binary_code-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/Data-Transfer-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/Data_Science_Analysis-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/about.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/data-science-atom-around-of-server-icon-silhouette-in-color-gradient-from-purple-to-gm.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/data-science-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/download (2).png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/head_with_subjectsinline.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/img1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/img2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/img3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/about/inter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/art/a1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/art/a2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/art/hacker_noon.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/background/bg-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/background/bg-pricing.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/background/countdown.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/blog/img-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/blog/img-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/blog/img-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/dotTexture.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/img-6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/gallery/rsa-house---great-room-header-image-hi--res-1200x450.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/david-smith-photo-e1528814640324.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/kevin_smith.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/monica_berrondo.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/judges/nealormsbee.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/location.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/CompliFi.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Complifi.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Fish_Brains.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Images for Life Sci Hack_Austin.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Images for Life Sci Hack_Austin2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Images for Life Sci Hack_Austin3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/Symptom.MInimizer.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/dreamstime_xxl_40876052.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/project_submissions/sympton_minimizer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/rDIfwqx-london-desktop-wallpaper.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/1184351.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/148-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/79257888-stock-vector-celebration-winner-cup-first-place-award-mono-line-icon-best-results-on-performance-.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/99-996523_[-img]-adventure-time-sandwich.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/9ce85902d77058290a3e16713b62b6c8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/Coding-Html-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/EGG-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/Happy_Man_Human_Resource__Life_Style_C-69-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/Map_marker-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/Refreshements-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/closed-tag-icon-vector-20283467.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/git-default.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/mentor-help-assistant-leadership-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/presentations-icon.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/strategy-planning-position-formation-team-512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/schedule/thumb-delicious-sandwich-food-cute-kawaii-cartoon-vector.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/AdobeStock_139999923.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/ExperimentalCivics_Logo_ImageOnlyRGB.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/pexels-photo-1059161.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/pexels-photo-220989.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/pexels-photo-397998.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/slider/slide3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/speaker/speakers-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/speaker/speakers-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/speaker/speakers-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/speaker/speakers-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/speakers/Hugh-Forrest-Photo-by-Dylan-O_Connor-copy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/speakers/Hugh_Forrest.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/Helmsley.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/L7_logo_CORPORATE_CMYK (1).jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/Oxford-University-rectangle-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/Swyft_600x206.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/logo-01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/logo-02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/logo-03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/logo-04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/sxsw-logo-horizontal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/welogo_black.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/welogo_white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/wework-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/sponsors/women_who_code.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/support/mozilla-logo-bw-rgb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/amanda_ross.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/neal.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/sarah_image.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/scott_image.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/suliman_sharif_profile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-05.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/team/team-06.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/austin/img/testimonial/img6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/colors.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/left-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/colors/blue.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/main.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/nivo-lightbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/responsive.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/css/slicknav.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/LineIcons.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/animated.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/core.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/icons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/larger.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/list.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/path.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/stacked.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/fonts/line-icons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/TweenMax.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/contact-form-script.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/form-validator.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery.countdown.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery.easing.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery.nav.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/jquery.slicknav.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/map.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/matrix_background.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/nivo-lightbox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/popper.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/three.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/js/wow.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_about.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_blog.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_carousel.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_contact.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_countdown.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_footer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_global.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_navbar.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_portfolio.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_pricing.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_schedule.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_service.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_shortcode.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_team.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/_testimonial.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/colors/_presets.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/main.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/austin/scss/responsive.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/animate.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/flaticon.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/owl.carousel.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/owl.theme.default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/scrolling-nav.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/Flaticon.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/Flaticon.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/Flaticon.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/flaticon.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/bg/herpes-viruses-and-antibodies-PJENMEM.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/bg/human-heart-radiology-exam-AQ26D78_000.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/bg/human-pathogenic-virus-and-bacterias-under-PXSCE7K-compressor.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/bg/thames-river-in-london-at-night-PFSRR9A.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/blog/hacker-using-keyboard-typing-phishing-on-the-PS9AYWN (1).jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/blog/hacker-using-keyboard-typing-phishing-on-the-PS9AYWN.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/blog/in-office-P2H5EBH-compressor.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/blog/lifescihack-compressor.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/blog/microphone-in-modern-radio-station-broadcasting-P457XK8-compressor.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/icon/ai.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/icon/big_data.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/icon/data.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/icon/education.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/icon/options.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/light-box-close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/next.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/noun_molecule_490570.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/orange.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/preloder.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/prev.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/right-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/images/space.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/countdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/jarallax.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.counterup.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.easing.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.plate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.scrollUp.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.waypoints.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/jquery.youtubebackground.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/map.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/owl.carousel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/particles.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/scrolling-nav.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/js/wow.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/global_chem_main/php/contact.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test.xyz" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -124,64 +171,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prev.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/prev.png">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="140" column="117" lean-forward="false" selection-start-line="140" selection-start-column="117" selection-end-line="140" selection-end-column="117" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isb.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/event/isb.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="right-img.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/right-img.png">
+      <file leaf-file-name="isqbp.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/event/isqbp.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="space.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/space.jpg">
+      <file leaf-file-name="daniel2.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/team/daniel2.jpeg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="close.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/close.png">
+      <file leaf-file-name="daniel.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/team/daniel.jpeg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="light-box-close.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/light-box-close.png">
+      <file leaf-file-name="ruibin.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/team/ruibin.jpeg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="next.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/next.png">
+      <file leaf-file-name="betty.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/team/betty.jpeg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo.png">
+      <file leaf-file-name="sul.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/team/sul.jpeg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orange.jpg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/orange.jpg">
+      <file leaf-file-name="h5.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/team/h5.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preloder.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/preloder.gif">
+      <file leaf-file-name="h4.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/team/h4.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -203,12 +271,20 @@
       <find>color</find>
       <find>our goal</find>
       <find>vitamin</find>
+      <find>1C71A4</find>
+      <find>slider-container</find>
+      <find>bg-overla</find>
+      <find>slider2</find>
     </findStrings>
+    <replaceStrings>
+      <replace>8b0000</replace>
+    </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/assets</dir>
       <dir>$PROJECT_DIR$/assets/austin</dir>
       <dir>$PROJECT_DIR$/assets/global_chem_main</dir>
+      <dir>$PROJECT_DIR$/css</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -224,10 +300,12 @@
       <list>
         <option value="$PROJECT_DIR$/assets/london/css/style.css" />
         <option value="$PROJECT_DIR$/assets/global_chem_main/js/app.js" />
-        <option value="$PROJECT_DIR$/assets/global_chem_main/css/style.css" />
         <option value="$PROJECT_DIR$/CNAME" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/global_chem_main/css/style.css" />
         <option value="$PROJECT_DIR$/test.xyz" />
+        <option value="$PROJECT_DIR$/index-animate-text.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -238,8 +316,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -288,6 +366,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,34 +377,20 @@
             <path>
               <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="austin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="global_chem_main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="global-chem-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="global-chem-website" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="global_chem_main" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,9 +402,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/global_chem_main/images" />
-      <recent name="$PROJECT_DIR$/assets/global_chem_main/images/icon" />
-      <recent name="$PROJECT_DIR$/assets/london/images" />
+      <recent name="$PROJECT_DIR$/img/event" />
+      <recent name="$PROJECT_DIR$/img/team" />
+      <recent name="$PROJECT_DIR$/img/bg" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/austin/img" />
     </key>
   </component>
@@ -355,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -398,6 +467,7 @@
       <patterns />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/global-chem-website/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/global-chem-website/index.html" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -438,9 +508,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -460,14 +535,18 @@
       <workItem from="1661709720605" duration="6327000" />
       <workItem from="1662032642934" duration="631000" />
       <workItem from="1662138993054" duration="452000" />
+      <workItem from="1662945858264" duration="318000" />
+      <workItem from="1663245391374" duration="20000" />
+      <workItem from="1663550029609" duration="6423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7410000" />
+    <option name="totallyTimeSpent" value="16051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -481,9 +560,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -496,7 +576,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -540,73 +619,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/options.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/big_data.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24675">
-          <caret line="1645" column="0" lean-forward="false" selection-start-line="1645" selection-start-column="0" selection-end-line="1645" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_Data_2605396.png" />
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_AI_2324354.png" />
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/ai.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_options_638516.png" />
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_education_2315390.png" />
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/data.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/noun_Big data_2677336.png" />
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/big_data.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/css/scrolling-nav.css">
+    <entry file="file://$PROJECT_DIR$/js/vendor/jquery-3.6.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -614,196 +627,331 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24675">
-          <caret line="1645" column="0" lean-forward="false" selection-start-line="1645" selection-start-column="0" selection-end-line="1645" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME">
+    <entry file="file://$PROJECT_DIR$/js/vendor/modernizr-3.11.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.xyz">
+    <entry file="file://$PROJECT_DIR$/js/vendor/jquery-migrate-3.3.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/nivo-slider/nivo-active.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/nivo-slider/jquery.nivo.slider.pack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax-mail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/color/skin-blue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/color/skin-cyan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/color/skin-teal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/color/skin-amber.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/color/skin-green.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/color/skin-purple.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/color/skin-default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/color/skin-blue-grey.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icofont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="780" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="780" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo-02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/globalchemlogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/app-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg/bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg/brand-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg/breadcumb.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg/call-to-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg/get-update.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg/grid.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg/special-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg/video-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/brand/01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/brand/02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/slider/slider1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/slider/slider2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="1870" column="1" lean-forward="false" selection-start-line="1870" selection-start-column="1" selection-end-line="1870" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/h1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/h2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/h3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/h4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/h5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/sul.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/ruibin.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/betty.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/daniel.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team/daniel2.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/event/isqbp.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/event/isb.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="354">
+          <caret line="140" column="117" lean-forward="false" selection-start-line="140" selection-start-column="117" selection-end-line="140" selection-end-column="117" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo/156x118-logo-colourways-blue.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo/Francs Crick logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo/synthace-logo-for-press-releases.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/education.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/icon/options.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/noun_molecule_490570.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/right-img.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/img3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/img1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/head_with_subjectsinline.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/Data_Science_Analysis-512.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/data-science-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/data-science-atom-around-of-server-icon-silhouette-in-color-gradient-from-purple-to-gm.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/about/about.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/dotTexture.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/gallery/img-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/gallery/img-4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/gallery/rsa-house---great-room-header-image-hi--res-1200x450.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/space.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/location.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/LifeSciHackLogo_White.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/austin/img/LifeSciHackLogo_Black.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/close.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/favicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/colors.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/left-img.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/light-box-close.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/next.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/preloder.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/prev.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global_chem_main/images/orange.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>
