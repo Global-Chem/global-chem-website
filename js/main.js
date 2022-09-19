@@ -205,4 +205,5 @@ $(".see-demo-btn").on('click', function (e) {
     }, 'slow');
 });
 
-})(jQuery); 
+})(jQuery);
+
