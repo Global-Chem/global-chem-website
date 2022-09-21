@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f3c73f2-c0a3-4d3f-9c8a-52a24c73a061" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/img/blog/blog-01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/blog-02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/blog-03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/blog-04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/blog-05.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/blog-06.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/blog-07.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/news-01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/news-02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/news-03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/recent-01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/recent-02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/recent-03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/blog/sb-01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="3f3c73f2-c0a3-4d3f-9c8a-52a24c73a061" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +14,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="510" column="48" lean-forward="false" selection-start-line="510" selection-start-column="48" selection-end-line="510" selection-end-column="48" />
+            <state relative-caret-position="319">
+              <caret line="525" column="26" lean-forward="false" selection-start-line="525" selection-start-column="26" selection-end-line="525" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -393,12 +376,12 @@
       <workItem from="1663550029609" duration="8888000" />
       <workItem from="1663595296774" duration="198000" />
       <workItem from="1663758990824" duration="1013000" />
-      <workItem from="1663767417724" duration="2296000" />
+      <workItem from="1663767417724" duration="2352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22023000" />
+    <option name="totallyTimeSpent" value="22079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -658,8 +641,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="510" column="48" lean-forward="false" selection-start-line="510" selection-start-column="48" selection-end-line="510" selection-end-column="48" />
+        <state relative-caret-position="319">
+          <caret line="525" column="26" lean-forward="false" selection-start-line="525" selection-start-column="26" selection-end-line="525" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
