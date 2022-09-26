@@ -770,10 +770,10 @@ a.btn-def.bnt-2.big {
 }
 .special-wrap h4 { margin-bottom: 20px }
 .special-wrap > p { margin-bottom: 25px }
-.special-offer-area { background: rgba(0, 0, 0, 0) url("img/bg/bg.jpg") no-repeat scroll 0 0 / cover }
+.special-offer-area { background: rgba(0, 0, 0, 0) url("img/bg/bg.png") no-repeat scroll 0 0 / cover }
 .white-color { color: #fff }
 .brand-area {
-    background: rgba(0, 0, 0, 0) url("img/bg/bg.jpg") no-repeat scroll 0 0 / cover;
+    background: rgba(0, 0, 0, 0) url("img/bg/bg.png") no-repeat scroll 0 0 / cover;
     padding: 40px 0;
 }
 .single-brand {
@@ -1866,7 +1866,7 @@ blockquote {
 /* parallex */
 .parallex-slide,
 .animate-slide {
-    background: rgba(0, 0, 0, 0) url("img/bg/bg.jpg") no-repeat fixed 0 0 / cover;
+    background: rgba(0, 0, 0, 0) url("img/bg/bg.png") no-repeat fixed 0 0 / cover;
     height: 100vh;
 }
 .parallex-slider-text {
