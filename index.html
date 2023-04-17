@@ -1,894 +1,328 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Global Chem: Common Chemical Names Dictionary</title>
+    <meta
+      name="description"
+      content="A General Public Dictionary of Common Chemical Names to their Molecular Definition."
+    />
+    <style> body { margin: 0; } </style>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Global-Chem: Common Chemical Names Dictionary</title>
-    <meta name="description" content="SMILES machine learning computer science organic chemistry common chemical names knowledge grap">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//unpkg.com/d3-dsv"></script>
+  <script src="//unpkg.com/index-array-by"></script>
 
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/globalchemlogo.png">
+  <script src="//unpkg.com/globe.gl"></script>
 
     <!-- all css here -->
-    <!-- bootstrap v5.1.0 css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- animate css -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- meanmenu css -->
-    <link rel="stylesheet" href="css/meanmenu.min.css">
-    <!-- owl.carousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <!-- icofont css -->
-    <link rel="stylesheet" href="css/icofont.css">
-    <!-- Nivo css -->
-    <link rel="stylesheet" href="css/nivo-slider.css">
-    <!-- animaton text css -->
-    <link rel="stylesheet" href="css/animate-text.css">
-    <!-- datepicker css -->
-    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-    <!-- Metrial iconic fonts css -->
-    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
-    <!-- style css -->
-    <link rel="stylesheet" href="style.css">
-    <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- color css -->
-    <link href="css/color/skin-default.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- nav bar -->
+      <header aria-label="Site Header" class="shadow-sm">
+        <div
+          class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4"
+        >
 
-    <!-- modernizr css -->
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-</head>
+          <div class="gap-4">
+            <a href="#">
+                <img src="assets/globalChem.png" alt="Global Chem's logo" class="h-10" />
+              </span>
+              <span class="h-10 w-20 rounded-lg bg-gray-200"></span>
+          </div>
 
-<body>
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+          <div class="items-center gap-4 lg:flex">
+            <a
+              href="#"
+              class="rounded-lg bg-gray-100 px-5 py-2 text-sm font-medium text-gray-600 hidden md:inline-flex transition hover:bg-gray-200"
+            >
+              Our Software
+            </a>
 
-    <!--body-wraper-are-start-->
-    <div class="wrapper home-parallax">
-
-        <!--slider header area are start-->
-        <div class="header-slider-area" id="home">
-            <!--header start-->
-            <div class="header-area">
-                <!--header-top-start-->
-                <div class="header-top">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-8 d-none d-md-block">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--header-top-end-->
-                <!--logo menu area start-->
-                <div id="sticker" class="logo-menu-area header-area-2">
-                    <div class="container d-none d-md-block">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-2">
-                            </div>
-                            <div class="col-lg-9 col-md-10">
-                                <div class="main-menu text-end">
-                                    <nav>
-                                        <ul id="nav">
-                                            <li><a href="#home">Home</a></li>
-                                            <li><a href="#about-event">About</a></li>
-                                            <li><a href="#happen">News</a></li>
-                                            <li><a href="#speakers">Contributors</a></li>
-                                            <li><a href="#contact">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- mobile-menu-area start -->
-                    <div class="mobile-menu-area">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <nav id="dropdown">
-                                        <ul>
-                                            <li><a href="#home">Home</a></li>
-                                            <li><a href="#about-event">About</a></li>
-                                            <li><a href="#happen">News</a></li>
-                                            <li><a href="#speakers">Maintainers</a></li>
-                                            <li><a href="#contact">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--mobile menu area end-->
-                </div>
-                <!--logo menu area start-->
-            </div>
-            <!-- header End-->
-
-            <!--slider area are start-->
-            <div class="slider-container bg-overlay animate-slide" id="particle-js">
-                <div class="container">
-                    <div class="slide1-text parallex-slider-text animate-slider-text text-center">
-                        <div class="middle-text slide-def mb50 mb-md-0">
-                            <div class="cap-dec">
-                                <p>Open Source Government Artificial Intelligence</p>
-                            </div>
-                            <div class="cap-title cd-headline clip is-full-width">
-                                <h1>Global-Chem: A Dictionary
-                                    <span class="cd-words-wrapper">
-                                        <b class="is-visible">From Common Chemical Names</b>
-                                        <b>To Molecules</b>
-                                    </span>
-                                </h1>
-                            </div>
-                            <div class="date-address">
-                            </div>
-                            <div style="display: inline-flex">
-                            <div class="slider-btn d-none d-md-block" style="margin: 5px"> <a class="btn-def" href="https://gitcoin.co/grants/7709/global-chem-a-dictionary-of-chemical-names-to-mol" target="_blank">Sponsor</a> </div>
-                            <div class="slider-btn d-none d-md-block" style="margin: 5px"> <a class="btn-def" href="https://github.com/Sulstice/global-chem" target="_blank">Software</a> </div></div>
-                            <div class="slider-btn d-none d-md-block" style="margin: 5px"> <a class="btn-def" href="https://github.com/Sulstice/global-chem/blob/development/global_chem/GlobalChem_Dictionary%20(1).pdf" target="_blank">Dictionary</a> </div></div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <!--slider area are End-->
-            <div class="down-arrow"> <a class="see-demo-btn" href="#about-event"><i
-                        class="zmdi zmdi-long-arrow-down"></i></a> </div>
+            <a
+              href="#"
+              class="rounded-lg bg-red-800 px-5 py-2 text-sm font-medium text-white transition hover:bg-red-900"
+            >
+              Join our community!
+            </a>
+          </div>
         </div>
-        <!--slider header area are end-->
-
-        <!--about area are start-->
-        <div class="about-area ptb100 fix" id="about-event">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="about-left">
-                            <div class="about-top">
-                                <h1 class="section-title">Our Mission</h1>
-                                <div class="total-step">
-                                    <div class="descp">
-                                        <p style="font-size: 20px; letter-spacing: 1px">We are writing the molecules to common chemical names that the general public use and keeping a record for all of us to download and maintain together.
-                                            We can all manage it as an open source governing community and use tools to declare whether these chemicals are safe or not for general use.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <h1 class="section-title">Our Plan</h1>
-                            <div class="total-step">
-                                <div class="about-step">
-                                    <h2 class="sub-title">Step 1: Gathering Data From the People, Academics, and Industry</h2>
-                                    <div class="descp">
-                                        <p>We hope to get chemical information from everywhere that could be expertise in the field: Cooking, Cleaning Products, Clothing, Makeup, Food, Pet Food, Environment, Sunscreen, Sexual Wellness, Oral Contraceptives, Chemical War, Medicinal Drugs, Vaccines, .</p>
-                                    </div>
-                                </div>
-                                <div class="about-step">
-                                    <h2 class="sub-title">Step 2: Create a Governing AI that we work with</h2>
-                                    <div class="descp">
-                                        <p>True General Artifical Intelligence comes from a variety of people and not one. Our AI is based off the data the people report to help us understand what we consume and use so we can understand medical conditions more and learn how to diagnose easily.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="about-right">
-                            <ul>
-                                <li><i class="zmdi zmdi-calendar-note"></i>Work Began: April 19, 2019</li>
-                                <li><i class="zmdi zmdi-pin"></i>Almost 8+ Countries</li>
-                                <li><i class="zmdi zmdi-palette"></i>12,000+ Lines of Code</li>
-                                <li><i class="zmdi zmdi-google-maps"></i>19+ List Contributors</li>
-                                <li><i class="zmdi zmdi-accounts"></i>1.5 Million Views+ Across Social Media</li>
-                                <li><i class="zmdi zmdi-mic-setting"></i>3506 Chemicals Recorded</li>
-                                <li><i class="zmdi zmdi-cloud-download"></i>140K+ Downloads</li>
-                            </ul>
-                            <div class="about-btn"> <a href="https://github.com/Sulstice/global-chem/discussions" class="btn-def bnt-2" target="_blank">Contribute Your List</a> </div>
-                        </div>
-                    </div>
-                </div>
+      </header>
+    <!-- hero section -->
+    <main class="bg-black">
+        <section">
+          <div
+            class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 flex"
+          >
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+              <div
+                class="relative rounded-lg lg:order-last content-center"
+              >
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/04/24/04/53/globe-1348777_640.png"
+                  alt=""
+                  class="absolute inset-0 my-auto object-cover"
+                />
+              </div>
+        
+              <div class="lg:py-20">
+                <h1 class="text-3xl font-bold sm:text-4xl lg:text-8xl text-white">Global Chemistry</h1>
+        
+                <p class="mt-4 text-gray-400">
+                  Global Chem serves as an open source platform where writing the molecules directly allows for the name to not be ambiguous to what a chemical is is anymore and allows for full transparency.
+                </p>
+        
+                <a
+                  href="#"
+                  class="mt-8 inline-block rounded bg-red-800 px-12 py-3 text-sm font-medium text-white transition hover:bg-red-900 focus:outline-none focus:ring focus:ring-red-400"
+                >
+                  Check out our software
+                </a>
+              </div>
             </div>
-        </div>
-        <!--about area are end-->
+          </div>
+      </section>
 
-        <!-- speacial offer are start  -->
-        <div class="special-offer-area parallex-fixed ptb100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="special-wrap">
-                            <h1 class="section-title white-color">Join Our Community, Be Aware of the Chemicals  </h1>
-                            <p class="white-color" style="font-size: 20px">Be Aware of the Chemicals you are putting in your body and join us
-                                in keep tracking of what unregulated products we as a community should start regulating</p>
-                            <a href="https://github.com/Sulstice/global-chem" target="_blank" class="btn-def bnt-3 red-color">Star Our Repository</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- mission / CTA section -->
+      <section>
+
+      </section>
+
+    <!-- stats section -->
+      <section class="text-gray-600 body-font bg-white">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Stats</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tenetur ex dolore laborum dolorem ducimus minima nobis magni iusto numquam optio quaerat illo officia odit, alias fugit possimus magnam repellat!</p>
+          </div>
+          <div class="flex flex-wrap -m-4 text-center">
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-red-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                  <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">140K +</h2>
+                <p class="leading-relaxed">Downloads</p>
+              </div>
             </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-red-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">1.5 Million +</h2>
+                <p class="leading-relaxed">Users</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#DC1E1E" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve" class="w-12 h-12 mb-3 inline-block">
+                  <g>
+                    <g>
+                      <path d="M443.455,290.286h0.002h0.001l63.937-36.914l-16.696-28.917l-63.937,36.914l-68.686-39.656v-79.311l63.937-36.914    l-16.696-28.917l-63.937,36.914l-68.686-39.657V0h-33.391v73.829l-68.686,39.656L106.68,76.57l-16.696,28.917l63.938,36.915    v79.311l-68.685,39.656l-63.938-36.915L4.604,253.371l63.938,36.914v79.311L4.604,406.512l16.695,28.917l63.803-36.837    l68.819,39.595V512h33.391v-73.829l68.551-39.579l68.819,39.595V512h33.391v-73.829l68.686-39.656l63.937,36.915l16.696-28.917    l-63.937-36.915V290.286z M239.304,369.598L239.304,369.598l-68.701,39.663l-68.671-39.51v-79.466l68.551-39.578l68.821,39.595    V369.598z M187.313,221.867v-79.466l68.686-39.655l68.686,39.656v79.311l-68.7,39.664L187.313,221.867z M341.366,409.263    l-68.671-39.511v-79.465l68.686-39.656l63.937,36.914l4.748,2.741v79.311h0.001L341.366,409.263z"/>
+                    </g>
+                  </g>
+                  </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">4000 +</h2>
+                <p class="leading-relaxed">Chemicals Recorded</p>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-red-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <h2 class="title-font font-medium text-3xl text-gray-900">4+</h2>
+                <p class="leading-relaxed">Years of Work</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- speacial offer are end  -->
+      </section>
 
+      <!-- contributors section -->
 
-        <!--what-happen-area start-->
-        <div id="happen" class="what-happen-area ptb100 off-white fix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="section-title">What Is Happening in Our Community</h1>
-                        <div class="clearfix"></div>
-                        <div class="tab-menu-list pt20 mb70 text-center">
-                            <ul class="nav d-block happen-tab" role="tablist">
-                                <li role="presentation"><a class="active" href="#day-one" aria-controls="day-one"
-                                        role="tab" data-bs-toggle="tab">Software</a></li>
-                                <li role="presentation"><a href="#day-two" aria-controls="day-two" role="tab"
-                                        data-bs-toggle="tab">Chemical Lists</a></li>
-                                <li role="presentation"><a href="#day-three" aria-controls="day-three" role="tab"
-                                                           data-bs-toggle="tab">Compliance</a></li>
-                                <li role="presentation"><a href="#day-four" aria-controls="day-three" role="tab"
-                                        data-bs-toggle="tab">Sponsorship</a></li>
-                            </ul>
-                        </div>
-                        <div class="clearfix"></div>
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade show active" id="day-one">
-                                <div class="row">
-                                    <div class="total-happen">
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-rise"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>Verification and Validation</h3>
-                                                        <p>Quality Control of Software and Standardizing Data Curation</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">Quality Control Plan</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h1.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="https://github.com/users/Sulstice/projects/3/views/1" target="_blank">Github Project </a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--single happen end-->
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-rise"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>Software Expansion</h3>
-                                                        <p>Expanding the Software For Interoperability and Absorption</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">Software Development Plan</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h1.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="" target="_blank">Github Project </a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--single happen end-->
-                                    </div>
-                                </div>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="day-two">
-                                <div class="row">
-                                    <div class="total-happen">
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-set"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>Chemical Synthesis</h3>
-                                                        <p>Reactions That Are Used to Make Chemicals</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">Common Named Reactions</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h2.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/discussions/84" target="_blank">Github Discussion</a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-set"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>Cosmetics and Food</h3>
-                                                        <p>Chemicals Used in Makeup/Hair Dyes and Food for Colouring</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">Food Coloring Additive Lists</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h2.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/blob/development/global_chem/global_chem/food/color_additives/fda_list_one.py" target="_blank">Github List</a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-set"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>Wellness Products</h3>
-                                                        <p>Chemicals Used in Unregulated Wellness Products</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">Lubricants</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h2.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/blob/development/global_chem/global_chem/sex/exsens/lube.py" target="_blank">Github List</a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-set"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>Snake & Others Venoms</h3>
-                                                        <p>Chemicals used to explore anti-venoms for snakes</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">Therapeutics to use snake chemicals</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h2.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/blob/development/global_chem/global_chem/animals/snakes/drugs_from_snake_venom.py" target="_blank">Github List</a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="day-three">
-                                <div class="row">
-                                    <div class="total-happen">
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-alt"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>U.S Compliance</h3>
-                                                        <p>21 Part 11 CFR Electronic Records Compliance for Open Source</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">Installation, Operational, and Qualification Documentation</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h4.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/blob/production/compliance_and_quality_assurance/qualification_document.md" target="_blank">Testing Software</a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--single happen end-->
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-set"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>European FAIR Software Compliance</h3>
-                                                        <p>Compliance standards for a FAIR software</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">FAIR Compliance Bot</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h5.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="https://github.com/Sulstice/global-chem/actions/workflows/fair_compliance_check.yml" target="_blank">Github Action</a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--single happen end-->
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-rise"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>Open Source License and Management</h3>
-                                                        <p>Reports of open source licensing and management</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">FOSSA Reports</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h3.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="https://app.fossa.com/projects/git%2Bgithub.com%2FSulstice%2Fglobal-chem/refs/branch/master/ad75524f7325b578cb0d78c220de6eeecc4f07c0/preview" target="_blank">FOSSA Report</a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--single happen end-->
-                                    </div>
-                                </div>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="day-four">
-                                <div class="row">
-                                    <div class="total-happen">
-                                        <!--single happen start-->
-                                        <div class="col-lg-12">
-                                            <div class="single-happen">
-                                                <div class="happen-top mb30">
-                                                    <div class="happen-icon">
-                                                        <i class="icofont icofont-sun-alt"></i>
-                                                    </div>
-                                                    <div class="happen-time-date">
-                                                        <h3>GitCoin Grant</h3>
-                                                        <p>Sponsor us Through Cryptocurrency and GitCoin</p>
-                                                    </div>
-                                                </div>
-                                                <div class="happen-bottom">
-                                                    <h3 class="happen-heading uppercase">Grant Sponsorship</h3>
-                                                    <div class="happen-details">
-                                                        <div class="happen-img">
-                                                            <img src="img/team/h4.png" alt="">
-                                                        </div>
-                                                        <div class="happen-text">
-                                                            <p class="uppercase"><strong><a href="https://gitcoin.co/grants/7709/global-chem-a-dictionary-of-chemical-names-to-mol" target="_blank">Link</a></strong></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--single happen end-->
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+      <section class="text-gray-600 body-font bg-white">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo odit aperiam provident impedit sit libero dignissimos enim ipsum assumenda deserunt minus dolorum, repellat, voluptates error aut fuga tempora maxime dolorem!</p>
+          </div>
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Person</h2>
+                  <p class="text-gray-500">Role</p>
                 </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Person</h2>
+                  <p class="text-gray-500">Role</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Person</h2>
+                  <p class="text-gray-500">Role</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Person</h2>
+                  <p class="text-gray-500">Role</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Person</h2>
+                  <p class="text-gray-500">Role</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Person</h2>
+                  <p class="text-gray-500">Role</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Person</h2>
+                  <p class="text-gray-500">Role</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Person</h2>
+                  <p class="text-gray-500">Role</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Person</h2>
+                  <p class="text-gray-500">Role</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- open source section -->
+
+      <!-- Contact form section -->
+      <section class="text-gray-600 body-font relative bg-white border-b-2">
+        <div class="container px-5 py-16 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+              If you're curious about our software or have any questions, feel free to contact us!
+            </p>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button class="flex mx-auto text-white bg-red-800 border-0 py-2 px-8 focus:outline-none hover:bg-red-900 rounded text-lg">Button</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+      <footer class="bg-white w-full py-8">
+        <div class="max-w-screen-xl px-4 mx-auto">
+            <ul class="flex flex-wrap justify-between max-w-screen-md mx-auto text-lg font-light">
+                <li class="my-2">
+                    <a class="text-gray-400 hover:text-gray-800 transition-colors duration-200" href="#">
+                        Footer link1
+                    </a>
+                </li>
+                <li class="my-2">
+                    <a class="text-gray-400 hover:text-gray-800 transition-colors duration-200" href="#">
+                        Footer link2
+                    </a>
+                </li>
+                <li class="my-2">
+                    <a class="text-gray-400 hover:text-gray-800 transition-colors duration-200" href="#">
+                        Footer link3
+                    </a>
+                </li>
+            </ul>
+            <div class="pt-8 flex max-w-xs mx-auto items-center justify-between">
+                <a href="#" class="text-gray-400 transition-colors duration-200 hover:text-gray-800 ">
+                    <svg width="20" height="20" fill="currentColor" class="text-xl transition-colors duration-200 hover:text-gray-800 " viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-400 transition-colors duration-200 hover:text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="text-xl transition-colors duration-200 hover:text-gray-800 " viewBox="0 0 1792 1792">
+                        <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-400 transition-colors duration-200 hover:text-gray-800">
+                    <svg width="20" height="20" fill="currentColor" class="text-xl transition-colors duration-200 hover:text-gray-800" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z">
+                        </path>
+                    </svg>
+                </a>
             </div>
         </div>
-        <!--what-happen-area end-->
-
-        <!--recent blog area are start-->
-        <div id="news" class="recent-blog-area white pt100 pb90">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 mb25">
-                        <h1 class="section-title">Software Gallery</h1>
-                    </div>
-                    <div class="col-12">
-                        <div class="total-blog">
-                            <div class="news-item">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="single-news">
-                                            <div class="news-img animate-eff">
-                                                <a href="#"><img src="img/blog/pca.png" alt=""></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="blog-content">
-                                            <h4 class="blog-heading uppercase">Principal Component Analysis for Aromatic/Non-Aromatic
-                                            </h4>
-                                            <p class="blog-text">Using 2 clusters can we create parameters to distinguish between aromatic and non-aromatic</p>
-                                            <div class="more">
-                                                <a href="https://sulstice.github.io/Global-Chem-Aromaticity/" target="_blank">Demo</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--recent blog area are start-->
-
-        <!--speaker section start-->
-        <div id="speakers" class="speaker-area off-white pt100 pb85">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="section-title">Honorable Open Source Contributors</h1>
-                        <div class="total-speaker crasoule-btn">
-                            <!--single-speaker-->
-                            <div class="speaker-item">
-                                <div class="single-speaker shadow-box text-center">
-                                    <img src="img/team/sul.jpeg" alt="">
-                                    <h4 class="speaker-name uppercase"><strong>Suliman Sharif</strong></h4>
-                                    <p class="speaker-deg">Founder</p>
-                                    <div class="social-icon">
-                                        <ul>
-                                            <li><a href="https://github.com/Sulstice" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/sulimansharif/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--single-speaker-->
-                            <!--single-speaker-->
-                            <div class="speaker-item">
-                                <div class="single-speaker shadow-box text-center">
-                                    <img src="img/team/ruibin.jpeg" alt="">
-                                    <h4 class="speaker-name uppercase"><strong>Ruibin Liu</strong></h4>
-                                    <p class="speaker-deg">Maintainer</p>
-                                    <div class="social-icon">
-                                        <ul>
-                                            <li><a href="https://github.com/Ruibin-Liu" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--single-speaker-->
-                            <!--single-speaker-->
-                            <div class="speaker-item">
-                                <div class="single-speaker shadow-box text-center">
-                                    <img src="img/team/betty.jpeg" alt="">
-                                    <h4 class="speaker-name uppercase"><strong>Bettina Lier</strong></h4>
-                                    <p class="speaker-deg">Maintainer</p>
-                                    <div class="social-icon">
-                                        <ul>
-                                            <li><a href="https://github.com/LierB" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--single-speaker-->
-                            <!--single-speaker-->
-                            <div class="speaker-item">
-                                <div class="single-speaker shadow-box text-center">
-                                    <img src="img/team/daniel2.jpeg" alt="">
-                                    <h4 class="speaker-name uppercase"><strong>Daniel Khavrutskii</strong></h4>
-                                    <p class="speaker-deg">Maintainer</p>
-                                    <div class="social-icon">
-                                        <ul>
-                                            <li><a href="https://github.com/dhavdc" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--single-speaker-->
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="total-speaker crasoule-btn">
-                            <!--single-speaker-->
-                            <div class="speaker-item">
-                                <div class="single-speaker shadow-box text-center">
-                                    <img src="img/team/aziza.png" alt="">
-                                    <h4 class="speaker-name uppercase"><strong>Aziza Frank</strong></h4>
-                                    <p class="speaker-deg">Developer</p>
-                                    <div class="social-icon">
-                                        <ul>
-                                            <li><a href="https://github.com/Safari222" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/aziza-frank-4454a2132/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--single-speaker-->
-                            <!--single-speaker-->
-                            <div class="speaker-item">
-                                <div class="single-speaker shadow-box text-center">
-                                    <img src="img/team/aarion.jpeg" alt="">
-                                    <h4 class="speaker-name uppercase"><strong>Aarion Romany</strong></h4>
-                                    <p class="speaker-deg">Developer</p>
-                                    <div class="social-icon">
-                                        <ul>
-                                            <li><a href="https://github.com/Kes-sudo" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/aarionromany/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--single-speaker-->
-                            <!--single-speaker-->
-                            <div class="speaker-item">
-                                <div class="single-speaker shadow-box text-center">
-                                    <img src="img/team/nathaniel.jpeg" alt="">
-                                    <h4 class="speaker-name uppercase"><strong>Nathaniel McClean</strong></h4>
-                                    <p class="speaker-deg">Developer</p>
-                                    <div class="social-icon">
-                                        <ul>
-                                            <li><a href="https://www.linkedin.com/in/nathaniel-mcclean-a143951a2/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--single-speaker-->
-                            <!--single-speaker-->
-                            <div class="speaker-item">
-                                <div class="single-speaker shadow-box text-center">
-                                    <img src="img/team/jake.png" alt="">
-                                    <h4 class="speaker-name uppercase"><strong>Jacob Weiner</strong></h4>
-                                    <p class="speaker-deg">Developer</p>
-                                    <div class="social-icon">
-                                        <ul>
-                                            <li><a href="https://github.com/jweiner12" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--single-speaker-->
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="total-speaker crasoule-btn">
-                            <!--single-speaker-->
-                            <div class="speaker-item">
-                                <div class="single-speaker shadow-box text-center">
-                                    <img src="img/team/asuka.jpeg" alt="">
-                                    <h4 class="speaker-name uppercase"><strong>Asuka Orr</strong></h4>
-                                    <p class="speaker-deg">Maintainer</p>
-                                    <div class="social-icon">
-                                        <ul>
-                                            <li><a href="https://github.com/asukaorr" target="_blank"><i class="zmdi zmdi-github"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/asuka-orr/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--single-speaker-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--speaker section end-->
-
-        <!--up comming events area-->
-        <div class="upcomming-events-area off-white ptb100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="section-title">Conference Talks</h1>
-                        <div class="total-upcomming-event">
-                            <div class="single-upcomming shadow-box">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="sue-pic" style="margin-top: 20px">
-                                            <img src="img/event/isqbp.png" style="height: 80px; width: 100px;" alt="">
-                                        </div>
-                                        <div class="sue-date-time text-center">
-                                            <span>May <br> 2021</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-5">
-                                        <div class="uc-event-title">
-                                            <div class="uc-icon"><i class="zmdi zmdi-globe-alt"></i></div>
-                                            <a href="#">CGenFF Compass: A Lexical Dictionary Bridge From Functional Groups to Their Atom Types</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-4">
-                                        <div class="upcomming-ticket text-center">
-                                            <a href="https://github.com/Sulstice/Resumes/blob/main/presentations/isqbp_meeting%20(4).pdf" target="_blank" class="btn-def bnt-2 small">Presentation</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-upcomming shadow-box">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <div class="sue-pic" style="margin-top: 40px">
-                                            <img src="img/event/isb.png" style="height: 80px; width: 160px;" alt="">
-                                        </div>
-                                        <div class="sue-date-time text-center">
-                                            <span>June <br> 2022</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-5">
-                                        <div class="uc-event-title">
-                                            <div class="uc-icon"><i class="zmdi zmdi-globe-alt"></i></div>
-                                            <a>Global-Chem: A Chemical Knowledge Graph of common small molecules and their IUPAC/SMILES/SMARTS for selection of compounds relevant to diverse chemical communities</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-4">
-                                        <div class="upcomming-ticket text-center">
-                                            <a href="https://github.com/Sulstice/Resumes/blob/main/presentations/ISB_2022_meeting.pdf" target="_blank" class="btn-def bnt-2 small">Presentation</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!--up comming events area-->
-
-        <!--call to action area start-->
-        <div class="call-to-action bg-overlay white-overlay parallex-fixed pb100 pt85">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Begin Mailchimp Signup Form -->
-                        <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
-                        <style type="text/css">
-                            #mc_embed_signup{background:#fff; clear:left; font:24px Helvetica,Arial,sans-serif;  width:100%;}
-                            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-                               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                        </style>
-                        <div id="mc_embed_signup">
-                            <form action="https://globalchemistry.us10.list-manage.com/subscribe/post?u=dc264e052218b5ac825c8d15c&amp;id=9a96029a73&amp;f_id=008f31e2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll">
-                                    <h2>Subscribe To Our Newsletter</h2>
-                                    <div class="mc-field-group">
-                                        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                                        </label>
-                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
-                                    </div>
-                                    <div id="mce-responses" class="clear foot">
-                                        <div class="response" id="mce-error-response" style="display:none"></div>
-                                        <div class="response" id="mce-success-response" style="display:none"></div>
-                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_dc264e052218b5ac825c8d15c_9a96029a73" tabindex="-1" value=""></div>
-                                    <div class="optionalParent">
-                                        <div class="clear foot">
-                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="font-size: 25px">
-                                            <p class="brandingLogo"><a href="http://eepurl.com/h_A9-9" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_light_dtp.svg"></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-                        <!--End mc_embed_signup-->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--call to action area End-->
-
-        <!--information area are start-->
-        <div class="information-area off-white ptb100" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="single-information text-center">
-                            <div class="info-icon">
-                                <i class="zmdi zmdi-email-open"></i>
-                            </div>
-                            <h4>E-Mail</h4>
-                            <p><a href="mailto:company@email.com">osglobalchem@gmail.com</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--information area are start-->
-
-        <!--footer area are start-->
-        <div class="footer-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="social-area">
-                            <ul>
-                                <li><a href="https://github.com/Sulstice/global-chem"><i class="zmdi zmdi-github"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--footer area are start-->
-    </div>
-    <!--body-wraper-are-end-->
-
-    <!--==== all js here====-->
-    <!-- jquery latest version -->
-    <script src="js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- owl.carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- meanmenu js -->
-    <script src="js/jquery.meanmenu.js"></script>
-    <!-- Nivo js -->
-    <script src="js/nivo-slider/jquery.nivo.slider.pack.js"></script>
-    <script src="js/nivo-slider/nivo-active.js"></script>
-    <!-- wow js -->
-    <script src="js/wow.min.js"></script>
-    <!-- Vedio js -->
-    <script src="js/video.js"></script>
-    <!-- Youtube Background JS -->
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
-    <!-- datepicker js -->
-    <script src="js/bootstrap-datepicker.js"></script>
-    <!-- waypoint js -->
-    <script src="js/waypoints.min.js"></script>
-    <!-- onepage nav js -->
-    <script src="js/jquery.nav.js"></script>
-    <!-- animate text JS -->
-    <script src="js/animate-text.js"></script>
-    <!-- plugins js -->
-    <script src="js/plugins.js"></script>
-    <!-- ajax-mail js -->
-    <script src="js/ajax-mail.js"></script>
-    <!-- particle js -->
-    <script src="js/particles.min.js"></script>
-    <!-- main js -->
-    <script src="js/main.js"></script>
-</body>
-
+      </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  </body>
 </html>
