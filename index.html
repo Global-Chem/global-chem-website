@@ -17,7 +17,7 @@
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
   </head>
-  <body>
+  <body class="h-full w-screen">
     <!-- nav bar -->
       <header aria-label="Site Header" class="shadow-sm">
         <div
@@ -48,24 +48,26 @@
           </div>
         </div>
       </header>
-    <!-- hero section -->
-    <main class="bg-black">
+    <!-- main -->
+    <main class="bg-black px-6">
+
+      <!-- hero section -->
         <section>
           <div
-            class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 flex"
+            class="mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
           >
-            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div class="block grid-cols-1 gap-8 lg:flex lg:grid-cols-2 lg:gap-16">
               <div
-                class="relative rounded-lg lg:order-last content-center"
+                class="rounded-lg lg:order-last content-center mx-auto"
               >
                 <img
                   src="https://cdn.pixabay.com/photo/2016/04/24/04/53/globe-1348777_640.png"
                   alt=""
-                  class="absolute inset-0 my-auto object-cover"
+                  class="inset-0 my-auto object-cover h-6/6 p-5 place-self-center"
                 />
               </div>
         
-              <div class="lg:py-20">
+              <div class="w-full lg:py-20 lg:w-1/2">
                 <h1 class="text-3xl font-bold sm:text-4xl lg:text-8xl text-white">Global Chemistry</h1>
         
                 <p class="mt-4 text-gray-400">
@@ -84,7 +86,7 @@
       </section>
 
     <!-- mission / CTA section -->
-    <section class="px-4 py-18 mt-32 mx-auto max-w-7xl text-white">
+    <section class="px-6 py-18 mt-32 mx-auto max-w-7xl text-white">
       <div class="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
         <div class="order-none md:order-2">
           <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-white md:leading-tight sm:text-left md:text-4xl">
@@ -97,7 +99,7 @@
         <div class="w-full h-full py-48 bg-gray-200"></div>
       </div>
       <div class="grid items-center grid-cols-1 mb-24 mt-12 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
-        <div class="mt-7">
+        <div class="mx-7">
           <h2 class="mb-4 mt-4 text-2xl font-extrabold tracking-tight text-center text-white md:leading-tight sm:text-left md:text-4xl">
             Our Plan
           </h2>
@@ -135,7 +137,54 @@
     
 
     <!-- stats section -->
+    <section class="px-6 my-10 pb-10">
+        <div class="bg-black grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 space-y-4 lg:space-y-0">
+          <div class="w-[300px] flex flex-row m-auto bg-gradient-to-r from-red-700 via-red-800 to-red-900 p-6 rounded-lg border-2 border-red-500">
+            <div class="my-auto mr-10 w-2/3">
+              <div class="text-lg text-red-300">Downloads</div>
+              <div class="text-4xl text-red-100">180k+</div>
+            </div>
+            <div class="text-red-300 my-auto bg-gradient-to-l from-red-700 via-red-800 to-red-900 rounded-full p-4 w-1/3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
+              </svg>
+            </div>
+          </div>
+          <div class="w-[300px] flex flex-row m-auto bg-gradient-to-r from-red-700 via-red-800 to-red-900 p-6 rounded-lg border-2 border-red-500">
+            <div class="my-auto mr-10 w-2/3">
+              <div class="text-lg text-red-300">Visitors</div>
+              <div class="text-4xl text-red-100">15k+</div>
+            </div>
+            <div class="text-red-300 my-auto bg-gradient-to-l from-red-700 via-red-800 to-red-900 rounded-full p-4 w-1/3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
+              </svg>
+            </div>
+          </div>
+          <div class="w-[300px] flex flex-row m-auto bg-gradient-to-r from-red-700 via-red-800 to-red-900 p-6 rounded-lg border-2 border-red-500">
+            <div class="my-auto mr-10 w-2/3">
+              <div class="text-lg text-red-300">Contributors</div>
+              <div class="text-4xl text-red-100">20k+</div>
+            </div>
+            <div class="text-red-300 my-auto bg-gradient-to-l from-red-700 via-red-800 to-red-900 rounded-full p-4 w-1/3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
+              </svg>
+            </div>
+          </div>
+          <div class="w-[300px] flex flex-row m-auto bg-gradient-to-r from-red-700 via-red-800 to-red-900 p-6 rounded-lg border-2 border-red-500">
+            <div class="my-auto mr-10 w-2/3">
+              <div class="text-lg text-red-300">Stars</div>
+              <div class="text-4xl text-red-100">120k+</div>
+            </div>
+            <div class="text-red-300 my-auto bg-gradient-to-l from-red-700 via-red-800 to-red-900 rounded-full p-4 w-1/3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
+              </svg>
+            </div>
+          </div>
 
+    </section>
     
     
 
@@ -149,7 +198,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
             </p>
     
-            <div class="flex items-center justify-center">
+            <div class="flex items-center justify-center p-4">
                 <div class="flex items-center p-1 border border-red-800 rounded-xl space-x-4">
                     <button class="px-4 py-2 text-sm font-medium text-white capitalize bg-red-800 md:py-3 rounded-xl md:px-6">technical</button>
                     <button class="px-4 py-2 text-sm font-medium text-red-800 capitalize transition-colors duration-300 md:py-3 focus:outline-none hover:bg-red-900 hover:text-white rounded-xl md:mx-8 md:px-6">science & research</button>
