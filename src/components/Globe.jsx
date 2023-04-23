@@ -22,7 +22,7 @@ const MyGlobe = ({ width, height }) => {
     const globeMesh = new THREE.Mesh(globeGeometry, globeMaterial);
     scene.add(globeMesh);
 
-    const rotateSpeed = 0.001;
+    const rotateSpeed = 0.002;
     let currentRotation = 0;
 
     // Animate the globe
@@ -40,7 +40,12 @@ const MyGlobe = ({ width, height }) => {
     return () => cancelAnimationFrame(animationFrameId);
   }, [width, height]);
 
-  return <canvas ref={canvasRef} />;
+  // center globe in canvas
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <canvas ref={canvasRef} />
+    </div>
+  )
 };
 
 export default MyGlobe;
