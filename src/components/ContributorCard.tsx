@@ -15,7 +15,7 @@ export interface ContributorCardProps {
 export default function ContributorCard({ name, role, links }: ContributorCardProps) {
 
     return (
-        <div className="flex flex-col items-center justify-center border-2 border-red-200 rounded-lg p-4 w-fit mx-auto">
+        <div className="flex flex-col items-center justify-center border-2 border-black rounded-lg p-4 w-fit mx-auto my-4">
             <h2 className="text-2xl font-semibold text-gray-700 capitalize">
                 {name}
             </h2>

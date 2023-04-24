@@ -196,6 +196,25 @@ const businessContributors = [
 export default function Contributors() {
   const [activeTab, setActiveTab] = React.useState(tabsList[0].id);
 
+  const contributors = [
+    {
+      id: tabsList[0].id,
+      list: technicalContributors,
+    },
+    {
+      id: tabsList[1].id,
+      list: scienceContributors,
+    },
+    {
+      id: tabsList[2].id,
+      list: managementContributors,
+    },
+    {
+      id: tabsList[3].id,
+      list: businessContributors,
+    },
+  ];
+
   return (
     <section className="bg-white">
       <div className="container px-6 py-10 mx-auto">
@@ -208,11 +227,12 @@ export default function Contributors() {
           ex placeat modi magni quia error alias, adipisci rem similique, at
           omnis eligendi optio eos harum.
         </p>
+        </div>
 
-        <Tabs.Root defaultValue={tabsList[0].id}>
+        <Tabs.Root defaultValue={tabsList[0].id} className="w-10/12 mx-auto">
           <Tabs.List
             aria-label="contributor tab list"
-            className="flex items-center p-1 border border-red-800 rounded-xl space-x-4 w-fit mx-auto"
+            className="flex items-center border border-red-800 rounded-xl space-x-4 w-fit mx-auto p-1"
           >
             {tabsList.map((tab) => (
               <Tabs.Trigger
@@ -231,52 +251,22 @@ export default function Contributors() {
               </Tabs.Trigger>
             ))}
           </Tabs.List>
-          <Tabs.Content value={tabsList[0].id}>
-            <div className="justify-center items-center space-y-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-              {technicalContributors.map((contributor) => (
-                <ContributorCard
-                  name={contributor.name}
-                  role={contributor.role}
-                  links={contributor.links}
-                />
-              ))}
-            </div>
-          </Tabs.Content>
-          <Tabs.Content value={tabsList[1].id}>
-            <div className="justify-center items-center space-y-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-              {scienceContributors.map((contributor) => (
-                <ContributorCard
-                  name={contributor.name}
-                  role={contributor.role}
-                  links={contributor.links}
-                />
-              ))}
-            </div>
-          </Tabs.Content>
-          <Tabs.Content value={tabsList[2].id}>
-            <div className="justify-center items-center space-y-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-              {managementContributors.map((contributor) => (
-                <ContributorCard
-                  name={contributor.name}
-                  role={contributor.role}
-                  links={contributor.links}
-                />
-              ))}
-            </div>
-          </Tabs.Content>
-          <Tabs.Content value={tabsList[3].id}>
-            <div className="justify-center items-center space-y-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-              {businessContributors.map((contributor) => (
-                <ContributorCard
-                  name={contributor.name}
-                  role={contributor.role}
-                  links={contributor.links}
-                />
-              ))}
-            </div>
-          </Tabs.Content>
+
+          {contributors.map(({ id, list }) => (
+            <Tabs.Content key={id} value={id}>
+              <div className="justify-center items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+                {list.map((contributor) => (
+                  <ContributorCard
+                    key={contributor.name}
+                    name={contributor.name}
+                    role={contributor.role}
+                    links={contributor.links}
+                  />
+                ))}
+              </div>
+            </Tabs.Content>
+          ))}
         </Tabs.Root>
-      </div>
     </section>
   );
 }

@@ -29,7 +29,7 @@ const Accordion = (props: AccordionProps) => {
     <AccordionPrimitive.Root
       defaultValue={[]}
       type="multiple"
-      className={clsx("space-y-2 w-full")}
+      className={clsx("space-y-1 w-full")}
     >
       {items.map(({ header, content }, i) => (
         <AccordionPrimitive.Item
@@ -42,18 +42,19 @@ const Accordion = (props: AccordionProps) => {
               className={clsx(
                 "group",
                 "focus:outline-none",
-                "inline-flex w-full items-center justify-between bg-red-800 px-4 py-2 text-left rounded-lg"
+                "flex w-full items-center justify-between bg-red-800 px-4 py-2 text-left rounded-lg"
               )}
             >
-              <span className="text-lg font-medium text-red-100">{header}</span>
-              <ChevronDownIcon
-                className={clsx(
-                  "w-5 h-5",
-                  "transform transition-transform",
-                  "group-focus:rotate-180",
-                  "group-active:rotate-180"
-                )}
-              />
+              <div className="text-lg font-medium text-red-100 p-1 flex w-full">
+                <span className="w-11/12">{header}</span>
+                <ChevronDownIcon
+                  className={clsx(
+                    "h-6 my-auto w-1/12",
+                    "transform transition-transform",
+                    "group-aria-expanded:rotate-180"
+                  )}
+                />
+              </div>
             </AccordionPrimitive.Trigger>
           </AccordionPrimitive.Header>
           <AccordionPrimitive.Content

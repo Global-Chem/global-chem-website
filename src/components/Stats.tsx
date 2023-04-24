@@ -39,7 +39,7 @@ export default function Stats() {
                             <div className="text-lg text-red-300">{stat.title}</div>
                             <div className="text-4xl text-red-100">{stat.value}</div>
                         </div>
-                        <div className="text-red-300 my-auto bg-gradient-to-l from-red-700 via-red-800 to-red-900 rounded-full p-4">
+                        <div className="text-red-300 my-auto bg-gradient-to-l from-red-700 via-red-800 to-red-900 rounded-full p-4 text-3xl">
                             {stat.icon}
                         </div>
                     </div>
