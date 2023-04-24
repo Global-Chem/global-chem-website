@@ -1,21 +1,30 @@
-import Image from "next/image";
+import { useState, useEffect } from "react";
 import Globe from "./Globe";
 
 export default function Hero() {
-  // responsive width for globe
-  const width = window.innerWidth > 640 ? 640 : window.innerWidth;
-  const height = width;
+  const [width, setWidth] = useState(500);
+  const [height, setHeight] = useState(500);
+
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth * 0.5);
+      setHeight(window.innerWidth * 0.5);
+    }
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
 
   return (
     <section>
       <div className="sm:py-12 flex items-center justify-center lg:h-screen">
-        <div className="gap-8 lg:flex lg:grid-cols-2">
-          <div className="w-1/2">
+        <div className="gap-8 lg:flex lg:grid-cols-2 items-center justify-center">
+          <div className="w-full lg:w-1/2">
             <Globe width={width} height={height} />
           </div>
             
 
-          <div className="pt-36 order-2 lg:order-1 w-5/12">
+          <div className="lg:mx-auto order-2 lg:order-1 w-11/12 lg:w-5/12 text-center lg:text-left">
             <h1 className="text-3xl font-bold sm:text-4xl lg:text-8xl text-white">
               Global Chemistry
             </h1>
