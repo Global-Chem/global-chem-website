@@ -10,7 +10,7 @@ interface AccordionItem {
 
 const items: AccordionItem[] = [
   {
-    header: "Step 1: Gathering Data From a Diverse Range of Sources",
+    header: "Step 1: Gathering Data From a Diverse Range of Sources ",
     content:
       "We aim to gather chemical information from a wide range of sources, including experts in fields such as cooking, cleaning products, makeup, vaccines, and more. By compiling this information, we can create a comprehensive database that helps us understand the chemicals we encounter in our daily lives and assess their safety for general use.",
   },
