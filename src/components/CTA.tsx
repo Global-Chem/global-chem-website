@@ -26,7 +26,9 @@ return (
           </h2>
           <Accordion />
         </div>
-        <div className="w-full h-full py-48 bg-gray-200 mt-8"></div>
+        <div className="w-full h-full py-48 bg-gray-200 mt-8">
+          <div></div>
+        </div>
       </div>
     </section>
   );

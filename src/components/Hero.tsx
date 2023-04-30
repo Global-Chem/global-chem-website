@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Globe from "./Globe";
+import {padding} from "polished";
 
 export default function Hero() {
   const [width, setWidth] = useState(500);
@@ -26,25 +27,33 @@ export default function Hero() {
           <div className="w-full lg:w-1/2 h-auto">
             <Globe width={width} height={height} />
           </div>
-            
+
 
           <div className="lg:mx-auto order-2 lg:order-1 w-11/12 lg:w-5/12 text-center lg:text-left">
             <h1 className="text-3xl font-bold sm:text-4xl lg:text-7xl text-white">
-              Global Chemistry
+              Global Chem
             </h1>
 
             <p className="mt-4 text-gray-400 mx-1">
-              Global Chem serves as an open source platform where writing the
-              molecules directly allows for the name to not be ambiguous to what
-              a chemical is anymore and allows for full transparency.
+              Global Chem is as an open source government based on transparent chemical data. We write the
+              common chemical name to the molecule's 1-D representation. This allows for all chemical data to
+              be recorded and governed by all.
             </p>
 
             <a
-              href="#"
+              href="https://github.com/Global-Chem/global-chem"
               className="mt-5 inline-block rounded-lg bg-red-800 px-4 py-3 text-sm font-medium text-white transition hover:bg-red-900 focus:outline-none focus:ring focus:ring-red-400"
             >
-              Check out our software
+              Knowledge Graph
             </a>
+            <br />
+            <a
+              href="https://discord.gg/dK2agwXSE7"
+              className="mt-5 inline-block rounded-lg bg-red-800 px-4 py-3 text-sm font-medium text-white transition hover:bg-red-900 focus:outline-none focus:ring focus:ring-red-400"
+            >
+              Discord Community
+            </a>
+
           </div>
         </div>
       </div>

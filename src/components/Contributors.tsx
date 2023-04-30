@@ -4,51 +4,71 @@ import ContributorCard from "./ContributorCard";
 
 const tabsList = [
   {
-    id: "technical",
-    title: "Technical",
+    id: "software",
+    title: "Software",
   },
   {
     id: "science",
     title: "Science & Research",
   },
   {
-    id: "management",
-    title: "Management",
+    id: "translators",
+    title: "Translators",
   },
   {
-    id: "business",
-    title: "Business",
+    id: "board",
+    title: "Board",
   },
 ];
 
 const technicalContributors = [
   {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Ruibin Liu",
+    role: "Software Architect",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
     },
   },
   {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Sarah Gerrard",
+    role: "Front-End/Application Engineer",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
     },
   },
   {
-    name: "John Doe",
+    name: "Daniel Khavrutskii",
     role: "Software Engineer",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
     },
   },
+];
+
+
+const translatorContributors = [
   {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Mingtian Zhao",
+    role: "English to Mandarin",
+    links: {
+      github: "https://github.com",
+      linkedin: "https://linkedin.com",
+    },
+  },
+  {
+    name: "Takayuki Serizawa",
+    role: "English to Japanese",
+    links: {
+      github: "https://github.com",
+      linkedin: "https://linkedin.com",
+    },
+  },
+  {
+    name: "Jared Deacon",
+    role: "English to French",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -58,32 +78,64 @@ const technicalContributors = [
 
 const scienceContributors = [
   {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Aziza Frank",
+    role: "Medicinal Chemistry",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
     },
   },
   {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Aarion Romany",
+    role: "Biophysicist",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
     },
   },
   {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Nathaniel McClean",
+    role: "Biochemist",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
     },
   },
   {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Anmol Kumar",
+    role: "Quantum Chemist",
+    links: {
+      github: "https://github.com",
+      linkedin: "https://linkedin.com",
+    },
+  },
+  {
+    name: "Jacob Weiner",
+    role: "Bacteriologist",
+    links: {
+      github: "https://github.com",
+      linkedin: "https://linkedin.com",
+    },
+  },
+  {
+    name: "Sunhwan Jo",
+    role: "Biochemist/Machine Learning Scientist",
+    links: {
+      github: "https://github.com",
+      linkedin: "https://linkedin.com",
+    },
+  },
+  {
+    name: "Bettina Lier",
+    role: "Data Governor",
+    links: {
+      github: "https://github.com",
+      linkedin: "https://linkedin.com",
+    },
+  },
+  {
+    name: "Prabin Baral",
+    role: "Computational Chemist",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -93,32 +145,24 @@ const scienceContributors = [
 
 const managementContributors = [
   {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Suliman Sharif",
+    role: "Founder",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
     },
   },
   {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Josh Farrell",
+    role: "Director of Cannabis",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
     },
   },
   {
-    name: "John Doe",
-    role: "Software Engineer",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-    },
-  },
-  {
-    name: "John Doe",
-    role: "Software Engineer",
+    name: "Lauren Angulo",
+    role: "Lawyer",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -126,72 +170,6 @@ const managementContributors = [
   },
 ];
 
-const businessContributors = [
-  {
-    name: "John Doe",
-    role: "Software Engineer",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-    },
-  },
-  {
-    name: "John Doe",
-    role: "Software Engineer",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-    },
-  },
-  {
-    name: "John Doe",
-    role: "Software Engineer",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-    },
-  },
-  {
-    name: "John Doe",
-    role: "Software Engineer",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-    },
-  },
-  {
-    name: "John Doe",
-    role: "Software Engineer",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-    },
-  },
-  {
-    name: "John Doe",
-    role: "Software Engineer",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-    },
-  },
-  {
-    name: "John Doe",
-    role: "Software Engineer",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-    },
-  },
-  {
-    name: "John Doe",
-    role: "Software Engineer",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-    },
-  },
-];
 
 export default function Contributors() {
   const [activeTab, setActiveTab] = React.useState(tabsList[0].id);
@@ -207,11 +185,11 @@ export default function Contributors() {
     },
     {
       id: tabsList[2].id,
-      list: managementContributors,
+      list: translatorContributors,
     },
     {
       id: tabsList[3].id,
-      list: businessContributors,
+      list: managementContributors,
     },
   ];
 
@@ -223,9 +201,7 @@ export default function Contributors() {
         </h1>
 
         <p className="max-w-2xl mx-auto my-6 text-center text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt
-          ex placeat modi magni quia error alias, adipisci rem similique, at
-          omnis eligendi optio eos harum.
+          Our Community is a Collection of People who have dedicated their free time and expertise in their field to the project.
         </p>
         </div>
 
