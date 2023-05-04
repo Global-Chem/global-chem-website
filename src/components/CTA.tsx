@@ -1,5 +1,9 @@
 import React from "react";
 import Accordion from "./Accordion";
+import Image from 'next/image';
+
+import knowledgegraph from '../../public/assets/knowledgegraph.png';
+import roadmap from '../../public/assets/roadmap.png';
 
 export default function CTA() {
 return (
@@ -17,8 +21,18 @@ return (
             benefit everyone.
           </p>
         </div>
-        <div className="w-full h-full py-48 bg-gray-200"></div>
+        <div className="mx-auto" style={{border: "5px solid #991b1b", borderRadius: "5px"}}>
+          <Image
+            src={knowledgegraph}
+            width={500}
+            height={500}
+            alt="Picture of the author"
+          />
+        </div>
+      
       </div>
+
+
       <div className="grid grid-cols-1 mb-24 mt-12 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24 justify-center">
         <div className="mt-10">
           <h2 className="mb-4 mt-4 text-2xl font-extrabold tracking-tight text-white md:leading-tight md:text-4xl">
@@ -26,8 +40,13 @@ return (
           </h2>
           <Accordion />
         </div>
-        <div className="w-full h-full py-48 bg-gray-200 mt-8">
-          <div></div>
+        <div className="mx-auto" style={{border: "5px solid #991b1b", borderRadius: "5px"}}s>
+          <Image
+            src={roadmap}
+            width={500}
+            height={500}
+            alt="Picture of the author"
+          />
         </div>
       </div>
     </section>
