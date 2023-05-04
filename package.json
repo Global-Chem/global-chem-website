@@ -2,9 +2,12 @@
   "name": "global-chem-website1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://global-chem.github.io/global-chem-website/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
     "start": "next start",
     "lint": "next lint"
   },
