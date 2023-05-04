@@ -36,7 +36,7 @@ export default function Hero() {
 
             <p className="mt-4 text-gray-400 mx-1">
               Global Chem is as an open source government based on transparent chemical data. We write the
-              common chemical name to the molecule's 1-D representation. This allows for all chemical data to
+              common chemical name to the molecules 1-D representation. This allows for all chemical data to
               be recorded and governed by all.
             </p>
 
