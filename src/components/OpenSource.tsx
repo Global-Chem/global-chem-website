@@ -3,7 +3,7 @@ import { FaAddressBook } from "react-icons/fa"
 const roles = [
     {
         title: 'Front-End Engineer',
-        description: 'We want to expand our ReactApp Collection for Cheminformatics Tools based on NodeJS, Python, and Github Actions REST ',
+        description: 'Expand our ReactApp Collection for Cheminformatics Tools based on NodeJS, Python, and Github Actions REST.',
     },
     {
         title: 'Lead Front-End Engineer',
@@ -11,44 +11,43 @@ const roles = [
     },
     {
         title: 'Knowledge Graph Engineer',
-        description: 'Expand our CYPHER Query API with Neo4J and intereopability with other Knowledge Graphs such as RDFs, OWL, and OBO data structures',
+        description: 'CYPHER Query API with Neo4J and intereopability with other Knowledge Graphs such as RDFs, OWL, and OBO data structures.',
     },
     {
         title: 'Github Cloud Operations Engineer',
-        description: 'Expand our Github Action Pipelines and talk to both the Bot Engineers and Front-Engineers. Budget control and performance of workflows',
+        description: 'Expanding GitHub action pipelines and work with the Bot and Front-End Engineers. Budget control and performance of workflows.',
     },
     {
         title: 'Discord Bot Engineer',
-        description: 'Expand our Machine Learning Bot interaction with users with commands. Expand LLM technology into our Bot for efficient user interaction.',
+        description: 'Machine learning bot interactions with user commands. Expand LLM technology into bots for efficient user interaction.',
     },
     {
         title: 'Machine Learning Engineer',
-        description: 'Work on our Convolutional and Recurrent Neural Networks models accuracy, efficiency for validation and generative AI',
+        description: 'Work on Convolutional and Recurrent Neural Networks model for accuracy, efficiency for validation and generative AI.',
     },
     {
         title: 'Deep Learning Organic Chemist',
-        description: 'Design lists of functional groups for different sub-communities to expand our generative AI capabilities',
+        description: 'Design lists of functional groups for different sub-communities to expand generative AI capabilities',
     },
     {
       title: 'Analytical Data Chemist',
-      description: 'Analyze Instrument data for characterizing different molecular compounds.',
+      description: 'Analyze instrument data for characterizing different molecular compounds.',
     },
     {
       title: 'Cheminformatician',
-      description: 'Research analysis and machine learning tools for analyzing different SMILES to gain a variety of information. Select useful connections to expand our front-end and bot technology',
+      description: 'Research analysis and machine learning tools for analyzing different SMILES to gain a variety of information. Select useful connections to expand front-end and bot technology',
     },
     {
     title: 'Geneticist',
-    description: 'Map useful connections between chemical compositions to phenology of different plant species',
+    description: 'Map useful connections between chemical compositions to phenology of different plant species.',
     },
     {
       title: 'Quality Assurance Engineer',
-      description: 'Our pipelines are built with Github Actions, Python Nose, and Pytest. Expand robustness in testing and integrate compliance standards into software',
+      description: 'Expand pipeline robustness built with Github Actions, Python Nose, and Pytest for testing and integrate compliance standards into software.',
     },
     {
       title: 'Compliance Advisor',
-      description: 'Ensure our software meets 21 CFR Part 11 Compliance according to the US FDA Guidelines. Build Technical documentation for other government agencies both US and Global. ' +
-        'Ensure instrumentation documented is compliant with WHO standards on characterization of molecules',
+      description: 'Ensure software meets 21 CFR Part 11 Compliance according to the US FDA Guidelines. Build Technical documentation for other government agencies both US and Global. Ensure instrumentation documented is compliant with WHO standards on characterization of molecules',
     },
 ]
 
@@ -61,8 +60,8 @@ export default function OpenSource() {
             <h2 className="text-3xl font-bold sm:text-4xl">Open Source Roles</h2>
 
             <p className="mt-4 text-gray-700">
-              We are an always evolving community and our active needs change based on what activities are currently going on.
-              To find out where you might fit into contributing or helping please navigate our open roles.
+              We are an ever evolving community and our active needs change based on what activities are going on.
+              To find out where you might fit into contributing or helping, please navigate our open roles.
             </p>
           </div>
 
