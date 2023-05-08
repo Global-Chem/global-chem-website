@@ -14,12 +14,8 @@ export default function Footer() {
       title: "Community",
       href: "https://discord.gg/global-chem",
     },
-<!--     {
-      title: "",
-      href: "#",
-    }, -->
   ];
-<!-- 
+
   const socialLinks = [
     {
         title: "Twitter",
@@ -36,7 +32,7 @@ export default function Footer() {
         href: "#",
         icon: <FaGithub />,
     }
-  ] -->
+  ]
 
   return (
     <footer className="bg-black w-full py-8">
