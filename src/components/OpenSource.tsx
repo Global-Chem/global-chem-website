@@ -54,8 +54,8 @@ const roles = [
 export default function OpenSource() {
 
     return (
-        <section className="bg-white text-black mx-auto">
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+        <section className="bg-white text-black mx-auto w-10/12">
+        <div className="mx-auto px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div className="max-w-xl text-center mx-auto">
             <h2 className="text-3xl font-bold sm:text-4xl">Open Source Roles</h2>
 

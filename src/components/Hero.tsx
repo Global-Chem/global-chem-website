@@ -29,7 +29,7 @@ export default function Hero() {
           </div>
 
 
-          <div className="lg:mx-auto order-2 lg:order-1 w-11/12 lg:w-5/12 text-center lg:text-left">
+          <div className="lg:mx-auto order-2 lg:order-1 w-11/12 lg:w-5/12 text-center lg:text-left mx-auto">
             <h1 className="text-3xl font-bold sm:text-4xl lg:text-7xl text-white">
               Global Chem
             </h1>
