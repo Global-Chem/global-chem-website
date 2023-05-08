@@ -24,6 +24,7 @@ return (
             src='/knowledge_graph.png'
             width={500}
             height={500}
+            alt='no picture found'
           />
         </div>
       
@@ -42,6 +43,7 @@ return (
             src='/software_map.png'
             width={500}
             height={500}
+            alt='no picture found'
           />
         </div>
       </div>
