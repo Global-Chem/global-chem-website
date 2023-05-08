@@ -2,6 +2,7 @@ import React from "react";
 import Accordion from "./Accordion";
 import Image from 'next/image';
 
+
 export default function CTA() {
 return (
     <section className="py-18 mt-32 mx-auto text-white max-w-max px-8">
