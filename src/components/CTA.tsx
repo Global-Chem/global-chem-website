@@ -40,7 +40,7 @@ return (
           </h2>
           <Accordion />
         </div>
-        <div className="mx-auto" style={{border: "5px solid #991b1b", borderRadius: "5px"}}s>
+        <div className="mx-auto" style={{border: "5px solid #991b1b", borderRadius: "5px"}}>
           <Image
             src={roadmap}
             width={500}
