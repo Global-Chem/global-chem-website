@@ -7,19 +7,19 @@ import {
 export default function Footer() {
   const footerLinks = [
     {
-      title: "Footer link1",
-      href: "#",
+      title: "Software",
+      href: "https://github.com/Global-Chem/global-chem",
     },
     {
-      title: "Footer link2",
-      href: "#",
+      title: "Community",
+      href: "https://discord.gg/global-chem",
     },
-    {
-      title: "Footer link3",
+<!--     {
+      title: "",
       href: "#",
-    },
+    }, -->
   ];
-
+<!-- 
   const socialLinks = [
     {
         title: "Twitter",
@@ -36,7 +36,7 @@ export default function Footer() {
         href: "#",
         icon: <FaGithub />,
     }
-  ]
+  ] -->
 
   return (
     <footer className="bg-black w-full py-8">
