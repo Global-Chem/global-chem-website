@@ -2,9 +2,6 @@ import React from "react";
 import Accordion from "./Accordion";
 import Image from 'next/image';
 
-import knowledgegraph from '../../public/assets/knowledgegraph.png';
-import roadmap from '../../public/assets/roadmap.png';
-
 export default function CTA() {
 return (
     <section className="py-18 mt-32 mx-auto text-white max-w-max px-8">
@@ -23,10 +20,9 @@ return (
         </div>
         <div className="mx-auto" style={{border: "5px solid #991b1b", borderRadius: "5px"}}>
           <Image
-            src={knowledgegraph}
+            src='/knowledge_graph.png'
             width={500}
             height={500}
-            alt="Picture of the author"
           />
         </div>
       
@@ -42,10 +38,9 @@ return (
         </div>
         <div className="mx-auto" style={{border: "5px solid #991b1b", borderRadius: "5px"}}>
           <Image
-            src={roadmap}
+            src='/software_map.png'
             width={500}
             height={500}
-            alt="Picture of the author"
           />
         </div>
       </div>
