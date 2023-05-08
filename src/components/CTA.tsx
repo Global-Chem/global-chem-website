@@ -18,12 +18,13 @@ return (
             benefit everyone.
           </p>
         </div>
-        <div className="mx-auto" style={{border: "5px solid #991b1b", borderRadius: "5px"}}>
+        <div className="mx-auto">
           <Image
             src={'./assets/knowledgegraph.webp'}
             width={500}
             height={500}
             alt="The knowledge graph that powers Global Chem"
+            style={{border: "5px solid #991b1b", borderRadius: "5px"}}
           />
         </div>
       
@@ -31,7 +32,7 @@ return (
 
 
       <div className="grid grid-cols-1 mb-24 mt-12 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24 justify-center">
-        <div className="mx-auto md:pt-10">
+        <div className="mx-auto lg:pt-10 my-auto md:my-0">
           <h2 className="mb-4 mt-4 text-2xl font-extrabold tracking-tight text-white md:leading-tight md:text-4xl">
             Our Plan
           </h2>
