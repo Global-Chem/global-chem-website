@@ -32,7 +32,7 @@ return (
 
 
       <div className="grid grid-cols-1 mb-24 mt-12 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24 justify-center">
-        <div className="mx-auto lg:pt-10 my-auto md:my-0">
+        <div className="mx-auto lg:pt-10 my-auto md:my-0 w-11/12">
           <h2 className="mb-4 mt-4 text-2xl font-extrabold tracking-tight text-white md:leading-tight md:text-4xl">
             Our Plan
           </h2>

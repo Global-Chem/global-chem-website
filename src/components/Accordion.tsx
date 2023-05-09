@@ -22,9 +22,9 @@ const items: AccordionItem[] = [
   },
   {
     header:
-      "Step 3: Establish Our Standard Chemical Artificial Intelligence",
+      "Step 3: Establish A Standard Chemical Artificial Intelligence",
     content:
-      "We created an interface where our machine learning models and the users can interact and contribute back data. This establishes a practice for a standard artificial intelligence program to be governed by all",
+      "We create interfaces where machine learning models and the users can interact with, and contribute back, data. This establishes a practice for a standard artificial intelligence program to be governed by all",
   },
 ];
 
@@ -35,24 +35,24 @@ const Accordion = (props: AccordionProps) => {
     <AccordionPrimitive.Root
       defaultValue={[]}
       type="multiple"
-      className={clsx("space-y-1 w-full")}
+      className={clsx("space-y-1 w-full overflow-hidden")}
     >
       {items.map(({ header, content }, i) => (
         <AccordionPrimitive.Item
           key={`header-${i}`}
           value={`item-${i + 1}`}
-          className={clsx("w-full rounded-lg space-y-0.5")}
+          className={clsx("rounded-lg")}
         >
           <AccordionPrimitive.Header className="w-full">
             <AccordionPrimitive.Trigger
               className={clsx(
                 "group",
                 "focus:outline-none",
-                "flex w-full items-center justify-between bg-red-800 px-4 py-2 text-left rounded-lg"
+                "flex w-full items-center justify-between bg-red-800 pl-3 py-2 text-left rounded-lg"
               )}
             >
               <div className="text-lg font-medium text-red-100 p-1 flex w-full">
-                <span className="w-11/12">{header}</span>
+                <span className="w-11/12 flex-end">{header}</span>
                 <ChevronDownIcon
                   className={clsx(
                     "h-6 my-auto w-1/12",
@@ -64,9 +64,9 @@ const Accordion = (props: AccordionProps) => {
             </AccordionPrimitive.Trigger>
           </AccordionPrimitive.Header>
           <AccordionPrimitive.Content
-            className={clsx("pt-1 w-full bg-white px-5 py-3 rounded-lg")}
+            className={clsx("pt-1 bg-white py-3 rounded-lg")}
           >
-            <div className="text-gray-700 py-2">{content}</div>
+            <div className="text-gray-700 py-2 px-4">{content}</div>
           </AccordionPrimitive.Content>
         </AccordionPrimitive.Item>
       ))}
