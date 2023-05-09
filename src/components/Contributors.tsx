@@ -5,7 +5,7 @@ import ContributorCard from "./ContributorCard";
 const tabsList = [
   {
     id: "science",
-    title: "Science & Research",
+    title: "Science",
   },
   {
     id: "software",
@@ -213,7 +213,7 @@ export default function Contributors() {
 
   return (
     <section className="bg-white">
-      <div className="container px-6 py-10 mx-auto">
+      <div className="container px-6 py-10 mx-auto w-10/12">
         <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl">
           Our team
         </h1>
@@ -223,10 +223,10 @@ export default function Contributors() {
         </p>
         </div>
 
-        <Tabs.Root defaultValue={tabsList[0].id} className="w-10/12 mx-auto">
+        <Tabs.Root defaultValue={tabsList[0].id} className="md:w-10/12 mx-auto">
           <Tabs.List
             aria-label="contributor tab list"
-            className="flex items-center border border-red-800 rounded-xl space-x-4 w-fit mx-auto p-1"
+            className="flex items-center border border-red-800 rounded-xl md:space-x-4 w-fit mx-auto p-1"
           >
             {tabsList.map((tab) => (
               <Tabs.Trigger
@@ -248,7 +248,7 @@ export default function Contributors() {
 
           {contributors.map(({ id, list }) => (
             <Tabs.Content key={id} value={id}>
-              <div className="justify-center items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+              <div className="justify-center items-center flex flex-wrap flex-1 py-4">
                 {list.map((contributor) => (
                   <ContributorCard
                     key={contributor.name}
