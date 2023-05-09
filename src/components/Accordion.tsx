@@ -35,7 +35,7 @@ const Accordion = (props: AccordionProps) => {
     <AccordionPrimitive.Root
       defaultValue={[]}
       type="multiple"
-      className={clsx("space-y-1 w-full overflow-hidden")}
+      className={clsx("space-y-1 overflow-hidden")}
     >
       {items.map(({ header, content }, i) => (
         <AccordionPrimitive.Item
@@ -51,8 +51,8 @@ const Accordion = (props: AccordionProps) => {
                 "flex w-full items-center justify-between bg-red-800 pl-3 py-2 text-left rounded-lg"
               )}
             >
-              <div className="text-lg font-medium text-red-100 p-1 flex w-full">
-                <span className="w-11/12 flex-end">{header}</span>
+              <div className="lg:text-lg font-medium text-red-100 p-1 flex w-full">
+                <span className="w-11/12">{header}</span>
                 <ChevronDownIcon
                   className={clsx(
                     "h-6 my-auto w-1/12",
