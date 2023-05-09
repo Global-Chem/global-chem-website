@@ -4,12 +4,12 @@ import ContributorCard from "./ContributorCard";
 
 const tabsList = [
   {
-    id: "software",
-    title: "Software",
-  },
-  {
     id: "science",
     title: "Science",
+  },
+  {
+    id: "software",
+    title: "Software",
   },
   {
     id: "translators",
@@ -25,6 +25,7 @@ const technicalContributors = [
   {
     name: "Ruibin Liu",
     role: "Software Architect",
+    imagepath: "/ruibin_liu.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -32,7 +33,8 @@ const technicalContributors = [
   },
   {
     name: "Sarah Gerrard",
-    role: "Front-End & Application Engineer",
+    role: "Front-End/Application Engineer",
+    imagepath: "/sarah_gerrard.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -41,6 +43,7 @@ const technicalContributors = [
   {
     name: "Daniel Khavrutskii",
     role: "Software Engineer",
+    imagepath: "/daniel_khavrutskii.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -53,6 +56,7 @@ const translatorContributors = [
   {
     name: "Mingtian Zhao",
     role: "English to Mandarin",
+    imagepath: "",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -61,6 +65,7 @@ const translatorContributors = [
   {
     name: "Takayuki Serizawa",
     role: "English to Japanese",
+    imagepath: "",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -69,6 +74,7 @@ const translatorContributors = [
   {
     name: "Jared Deacon",
     role: "English to French",
+    imagepath: "",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -80,6 +86,7 @@ const scienceContributors = [
   {
     name: "Aziza Frank",
     role: "Medicinal Chemistry",
+    imagepath: "/aziza_frank.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -88,6 +95,7 @@ const scienceContributors = [
   {
     name: "Aarion Romany",
     role: "Biophysicist",
+    imagepath: "/aarion_romany.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -96,6 +104,7 @@ const scienceContributors = [
   {
     name: "Nathaniel McClean",
     role: "Biochemist",
+    imagepath: "/nathaniel_mcclean.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -104,6 +113,7 @@ const scienceContributors = [
   {
     name: "Anmol Kumar",
     role: "Quantum Chemist",
+    imagepath: "/anmol_kumar.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -112,6 +122,7 @@ const scienceContributors = [
   {
     name: "Jacob Weiner",
     role: "Bacteriologist",
+    imagepath: "/jake_weiner.png",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -119,7 +130,8 @@ const scienceContributors = [
   },
   {
     name: "Sunhwan Jo",
-    role: "Biochemist / Machine Learning Scientist",
+    role: "Biochemist/Machine Learning Scientist",
+    imagepath: "/sunhwan_jo.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -128,6 +140,7 @@ const scienceContributors = [
   {
     name: "Bettina Lier",
     role: "Data Governor",
+    imagepath: "/bettina_lier.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -136,6 +149,7 @@ const scienceContributors = [
   {
     name: "Prabin Baral",
     role: "Computational Chemist",
+    imagepath: "/prabin_baral.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -146,7 +160,8 @@ const scienceContributors = [
 const managementContributors = [
   {
     name: "Suliman Sharif",
-    role: "Founder",
+    role: "Chief Operations Officer",
+    imagepath: "/suliman_sharif.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -155,6 +170,7 @@ const managementContributors = [
   {
     name: "Josh Farrell",
     role: "Director of Cannabis",
+    imagepath: "/josh_farrell.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -162,7 +178,8 @@ const managementContributors = [
   },
   {
     name: "Lauren Angulo",
-    role: "Lawyer",
+    role: "Legal",
+    imagepath: "/lauren_angulo.jpeg",
     links: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
@@ -177,12 +194,13 @@ export default function Contributors() {
   const contributors = [
     {
       id: tabsList[0].id,
-      list: technicalContributors,
+      list: scienceContributors,
     },
     {
       id: tabsList[1].id,
-      list: scienceContributors,
+      list: technicalContributors,
     },
+
     {
       id: tabsList[2].id,
       list: translatorContributors,
@@ -234,6 +252,7 @@ export default function Contributors() {
                 {list.map((contributor) => (
                   <ContributorCard
                     key={contributor.name}
+                    imagepath={contributor.imagepath}
                     name={contributor.name}
                     role={contributor.role}
                     links={contributor.links}

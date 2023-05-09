@@ -10,15 +10,21 @@ interface AccordionItem {
 
 const items: AccordionItem[] = [
   {
-    header: "Step 1: Gathering Data From a Diverse Range of Sources",
+    header: "Step 1: Gathering Chemical Data From People",
     content:
-      "We aim to gather chemical information from a wide range of sources, including experts in fields such as cooking, cleaning products, makeup, vaccines, and more. By compiling this information, we can create a comprehensive database that helps us understand the chemicals we encounter in our daily lives and assess their safety for general use.",
+      "We don't need all the chemicals in the universe, only the best elected from each community: War, Sex, Cannabis, Medicinal Therapeutics, Vaccines, Narcotics, Food etc. ",
   },
   {
     header:
-      "Step 2: Developing a Governing AI System Based on Collective Knowledge and Expertise",
+      "Step 2: Develop an Open Source Government",
     content:
-      "We aim to gather chemical information from a wide range of sources, including experts in fields such as cooking, cleaning products, makeup, vaccines, and more. By compiling this information, we can create a comprehensive database that helps us understand the chemicals we encounter in our daily lives and assess their safety for general use.",
+      "We link communities together by sharing chemical data across companies, academica, industry, and the people. This establishes a foundation for a government where the data is governed by everyone",
+  },
+  {
+    header:
+      "Step 3: Establish Our Standard Chemical Artificial Intelligence",
+    content:
+      "We created an interface where our machine learning models and the users can interact and contribute back data. This establishes a practice for a standard artificial intelligence program to be governed by all",
   },
 ];
 

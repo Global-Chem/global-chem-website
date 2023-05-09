@@ -7,16 +7,12 @@ import {
 export default function Footer() {
   const footerLinks = [
     {
-      title: "Footer link1",
-      href: "#",
+      title: "Software",
+      href: "https://github.com/Global-Chem/global-chem",
     },
     {
-      title: "Footer link2",
-      href: "#",
-    },
-    {
-      title: "Footer link3",
-      href: "#",
+      title: "Community",
+      href: "https://discord.gg/global-chem",
     },
   ];
 
