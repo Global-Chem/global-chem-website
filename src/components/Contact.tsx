@@ -62,7 +62,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            If you're curious about our software or have any questions, feel
+            If you are curious about our software or have any questions, feel
             free to contact us!
           </p>
         </div>
