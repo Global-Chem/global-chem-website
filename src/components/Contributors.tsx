@@ -33,7 +33,7 @@ const technicalContributors = [
   },
   {
     name: "Sarah Gerrard",
-    role: "Front-End/Application Engineer",
+    role: "Front-End / Application Engineer",
     imagepath: "/sarah_gerrard.jpeg",
     links: {
       github: "https://github.com",
@@ -130,7 +130,7 @@ const scienceContributors = [
   },
   {
     name: "Sunhwan Jo",
-    role: "Biochemist/Machine Learning Scientist",
+    role: "Biochemist / Machine Learning Scientist",
     imagepath: "/sunhwan_jo.jpeg",
     links: {
       github: "https://github.com",
@@ -213,7 +213,7 @@ export default function Contributors() {
 
   return (
     <section className="bg-white">
-      <div className="container px-6 py-10 mx-auto w-10/12">
+      <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl">
           Our team
         </h1>
@@ -248,7 +248,7 @@ export default function Contributors() {
 
           {contributors.map(({ id, list }) => (
             <Tabs.Content key={id} value={id}>
-              <div className="justify-center items-center flex flex-wrap flex-1 py-4">
+              <div className="flex flex-wrap w-9/12 mx-auto">
                 {list.map((contributor) => (
                   <ContributorCard
                     key={contributor.name}
