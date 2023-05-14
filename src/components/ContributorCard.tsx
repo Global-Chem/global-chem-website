@@ -26,12 +26,12 @@ export default function ContributorCard({
             src={imagepath}
             width={220}
             height={220}
-            alt="no picture found"
+            alt={name + " profile picture"}
             className="rounded-full"
           />
         ) : (
           <Image
-            src="/placeholder.png"
+            src="/contributors/placeholder.webp"
             width={220}
             height={220}
             alt="no picture found"
@@ -43,14 +43,22 @@ export default function ContributorCard({
         <h2 className="text-lg font-semibold text-gray-700 capitalize">
           {name}
         </h2>
-        <h3 className= "text-gray-500 capitalize text-sm">{role}</h3>
+        <h3 className="text-gray-500 capitalize text-sm">{role}</h3>
         <div className="mt-1 space-x-4 flex justify-center items-center">
-          <a href={links.linkedin} aria-label="LinkedIn">
-            <FaLinkedin className="hover:text-red-800 text-red-900 text-xl" />
-          </a>
-          <a href={links.github} aria-label="Github">
-            <FaGithub className="hover:text-red-800 text-red-900 text-xl" />
-          </a>
+          {links.linkedin ? (
+            <a href={links.linkedin} aria-label="LinkedIn">
+              <FaLinkedin className="hover:text-red-800 text-red-900 text-xl" />
+            </a>
+          ) : (
+            ""
+          )}
+          {links.github ? (
+            <a href={links.github} aria-label="Github">
+              <FaGithub className="hover:text-red-800 text-red-900 text-xl" />
+            </a>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </div>

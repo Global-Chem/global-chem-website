@@ -25,28 +25,28 @@ const technicalContributors = [
   {
     name: "Ruibin Liu",
     role: "Software Architect",
-    imagepath: "/ruibin_liu.jpeg",
+    imagepath: "/contributors/ruibin_liu.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "https://github.com/Ruibin-Liu",
+      linkedin: "https://linkedin.com/in/ruibin/",
     },
   },
   {
     name: "Sarah Gerrard",
-    role: "Front-End / Application Engineer",
-    imagepath: "/sarah_gerrard.jpeg",
+    role: "Front-End / Application Developer",
+    imagepath: "/contributors/sarah_gerrard.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "https://github.com/ladybluenotes",
+      linkedin: "https://linkedin.com/in/sarahgerrard/",
     },
   },
   {
     name: "Daniel Khavrutskii",
-    role: "Software Engineer",
-    imagepath: "/daniel_khavrutskii.jpeg",
+    role: "Software Developer",
+    imagepath: "/contributors/daniel_khavrutskii.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "https://github.com/dhavdc",
+      linkedin: "https://linkedin.com/in/daniel-khavrutskii/",
     },
   },
 ];
@@ -58,8 +58,8 @@ const translatorContributors = [
     role: "English to Mandarin",
     imagepath: "",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "",
+      linkedin: "",
     },
   },
   {
@@ -67,8 +67,8 @@ const translatorContributors = [
     role: "English to Japanese",
     imagepath: "",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "",
+      linkedin: "https://linkedin.com/in/takayuki-serizawa-75875298/",
     },
   },
   {
@@ -76,8 +76,8 @@ const translatorContributors = [
     role: "English to French",
     imagepath: "",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "",
+      linkedin: "",
     },
   },
 ];
@@ -86,73 +86,73 @@ const scienceContributors = [
   {
     name: "Aziza Frank",
     role: "Medicinal Chemistry",
-    imagepath: "/aziza_frank.jpeg",
+    imagepath: "/contributors/aziza_frank.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "",
+      linkedin: "https://linkedin.com/in/aziza-frank-4454a2132/",
     },
   },
   {
     name: "Aarion Romany",
     role: "Biophysicist",
-    imagepath: "/aarion_romany.jpeg",
+    imagepath: "/contributors/aarion_romany.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "",
+      linkedin: "https://linkedin.com/in/aarionromany/",
     },
   },
   {
     name: "Nathaniel McClean",
     role: "Biochemist",
-    imagepath: "/nathaniel_mcclean.jpeg",
+    imagepath: "/contributors/nathaniel_mcclean.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "",
+      linkedin: "https://linkedin.com/in/nathaniel-mcclean-a143951a2/",
     },
   },
   {
     name: "Anmol Kumar",
     role: "Quantum Chemist",
-    imagepath: "/anmol_kumar.jpeg",
+    imagepath: "/contributors/anmol_kumar.webp",
     links: {
       github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      linkedin: "https://linkedin.com/in/anmol-kumar-a73248160/",
     },
   },
   {
     name: "Jacob Weiner",
     role: "Bacteriologist",
-    imagepath: "/jake_weiner.png",
+    imagepath: "/contributors/jake_weiner.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "https://github.com/jweiner12",
+      linkedin: "",
     },
   },
   {
     name: "Sunhwan Jo",
     role: "Biochemist / Machine Learning Scientist",
-    imagepath: "/sunhwan_jo.jpeg",
+    imagepath: "/contributors/sunhwan_jo.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "https://github.com/sunhwan",
+      linkedin: "https://linkedin.com/in/sunhwan",
     },
   },
   {
     name: "Bettina Lier",
     role: "Data Governor",
-    imagepath: "/bettina_lier.jpeg",
+    imagepath: "/contributors/bettina_lier.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "",
+      linkedin: "https://linkedin.com/in/bettinalier/",
     },
   },
   {
     name: "Prabin Baral",
     role: "Computational Chemist",
-    imagepath: "/prabin_baral.jpeg",
+    imagepath: "/contributors/prabin_baral.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "",
+      linkedin: "https://linkedin.com/in/prabin-baral-490080116/",
     },
   },
 ];
@@ -161,28 +161,28 @@ const managementContributors = [
   {
     name: "Suliman Sharif",
     role: "Chief Operations Officer",
-    imagepath: "/suliman_sharif.jpeg",
+    imagepath: "/contributors/suliman_sharif.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "https://github.com/Sulstice",
+      linkedin: "https://linkedin.comin/sulimansharif/",
     },
   },
   {
     name: "Josh Farrell",
     role: "Director of Cannabis",
-    imagepath: "/josh_farrell.jpeg",
+    imagepath: "/contributors/josh_farrell.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "https://github.com/joshinthecity",
+      linkedin: "https://linkedin.com/in/josh-farrell/",
     },
   },
   {
     name: "Lauren Angulo",
     role: "Legal",
-    imagepath: "/lauren_angulo.jpeg",
+    imagepath: "/contributors/lauren_angulo.webp",
     links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
+      github: "",
+      linkedin: "https://linkedin.com/in/lauren-angulo-76218567/",
     },
   },
 ];

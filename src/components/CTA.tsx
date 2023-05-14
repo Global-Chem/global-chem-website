@@ -1,11 +1,16 @@
 import React from "react";
 import Accordion from "./Accordion";
+import Sponsors from "./Sponsors";
 import Image from 'next/image';
 
 export default function CTA() {
 return (
-    <section className="py-18 mt-32 mx-auto text-white md:px-8">
-      <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+    <section className="mx-auto text-white md:px-8">
+      <div>
+        <Sponsors />
+      </div>
+
+      <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-2 md:gap-y-32 gap-x-10 md:gap-x-24">
         <div className="order-none md:order-2">
           <h2 className="mb-4 text-2xl font-extrabold tracking-tight text-center text-white md:leading-tight sm:text-left md:text-4xl">
             Our Mission
@@ -31,7 +36,7 @@ return (
       </div>
 
 
-      <div className="grid grid-cols-1 mb-24 mt-12 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-5 md:gap-x-24 justify-center">
+      <div className="grid grid-cols-1 mb-24 mt-12 md:grid-cols-2 gap-y-2 md:gap-y-32 gap-x-5 md:gap-x-24 justify-center">
         <div className="mx-auto lg:pt-10 my-auto md:my-0 md:w-11/12">
           <h2 className="mb-4 mt-4 text-2xl font-extrabold tracking-tight text-white md:leading-tight md:text-4xl">
             Our Plan
