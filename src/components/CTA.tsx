@@ -1,13 +1,13 @@
 import React from "react";
 import Accordion from "./Accordion";
-import Sponsors from "./Sponsors";
+import Partnerships from "./Partnerships";
 import Image from 'next/image';
 
 export default function CTA() {
 return (
     <section className="mx-auto text-white md:px-8">
       <div>
-        <Sponsors />
+        <Partnerships />
       </div>
 
       <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-2 md:gap-y-32 gap-x-10 md:gap-x-24">
