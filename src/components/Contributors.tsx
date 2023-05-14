@@ -76,7 +76,7 @@ const translatorContributors = [
     role: "English to French",
     imagepath: "",
     links: {
-      github: "",
+      github: "https://github.com/jareddeacon",
       linkedin: "",
     },
   },
