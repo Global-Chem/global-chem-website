@@ -214,7 +214,7 @@ export default function Contributors() {
   return (
     <section className="bg-white">
       <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl">
+        <h1 className="uppercase text-2xl font-bold text-center text-gray-800 lg:text-3xl">
           Our team
         </h1>
 

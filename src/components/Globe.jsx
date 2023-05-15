@@ -18,7 +18,7 @@ const MyGlobe = ({ width, height }) => {
 
     const globeGeometry = new THREE.SphereGeometry(1, 32, 32);
     const globeMaterial = new THREE.MeshBasicMaterial({
-      map: new THREE.TextureLoader().load('https://unpkg.com/three-globe@2.27.0/example/img/earth-blue-marble.jpg'),
+      map: new THREE.TextureLoader().load("https://unpkg.com/three-globe@2.27.0/example/img/earth-blue-marble.jpg"),
       transparent: true,
     });
 
@@ -28,7 +28,6 @@ const MyGlobe = ({ width, height }) => {
     const rotateSpeed = 0.002;
     let currentRotation = 0;
 
-    // Animate the globe
     const animate = () => {
       animationFrameId = requestAnimationFrame(animate);
 
@@ -43,7 +42,6 @@ const MyGlobe = ({ width, height }) => {
     return () => cancelAnimationFrame(animationFrameId);
   }, [width, height]);
 
-  // center globe in canvas
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
     onHover={{

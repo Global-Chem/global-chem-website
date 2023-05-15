@@ -57,7 +57,7 @@ export default function OpenSource() {
         <section className="bg-white text-black mx-auto w-10/12">
         <div className="mx-auto px-2 py-8 sm:py-12 sm:px-2 lg:py-16 lg:px-8">
           <div className="max-w-xl text-center mx-auto">
-            <h2 className="text-3xl font-bold sm:text-4xl">Open Source Roles</h2>
+            <h2 className="text-3xl font-bold sm:text-4xl uppercase">Open Source Roles</h2>
 
             <p className="mt-4 text-gray-700">
               We are an ever evolving community and our active needs change based on what activities are going on.

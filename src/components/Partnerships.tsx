@@ -22,7 +22,7 @@ export default function Sponsors() {
   return (
     <section className="relative pt-28 pb-28 bg-blueGray-100 overflow-hidden">
       <div className="relative z-10 container px-4 mx-auto">
-        <p className="mb-8 text-gray-200 text-center font-semibold uppercase tracking-px">
+        <p className="mb-8 text-gray-200 text-center font-semibold uppercase tracking-px text-2xl">
           Our Partnerships
         </p>
         <div className="flex flex-wrap max-w-5xl mx-auto -m-3">
