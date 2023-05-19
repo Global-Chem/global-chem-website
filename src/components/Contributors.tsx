@@ -33,7 +33,7 @@ const technicalContributors = [
   },
   {
     name: "Sarah Gerrard",
-    role: "Front-End / Application Developer",
+    role: "Lead Front-End Developer",
     imagepath: "/contributors/sarah_gerrard.webp",
     links: {
       github: "https://github.com/ladybluenotes",

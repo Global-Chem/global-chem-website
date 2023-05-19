@@ -6,7 +6,6 @@ import CTA from "@/components/CTA";
 import Contributors from "@/components/Contributors";
 import OpenSource from "@/components/OpenSource";
 import Header from "@/components/Header";
-import ChemEcoSystem from "@/components/ChemEcosystem";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
         }}>
         <Header />
         <Hero />
-        <ChemEcoSystem />
         <CTA />
         <Stats />
       </div>

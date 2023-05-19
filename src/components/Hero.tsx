@@ -28,13 +28,10 @@ export default function Hero() {
 
   return (
     <section className="mx-auto">
-      <div className="sm:py-12 flex items-center justify-center mx-auto h-[91vh]">
+      <div className="sm:py-12 flex items-center justify-center mx-auto h-[95vh]">
         <div className="gap-8 lg:flex lg:grid-cols-2 items-center justify-center mx-auto">
           <div className="h-auto md:w-4/6 my-2">
-            <Globe
-              width={width}
-              height={height}
-            />
+            <Globe width={width} height={height} />
           </div>
 
           <div className="order-2 lg:order-1 text-center lg:text-left justify-end space-x-2 mx-auto w-11/12 md:w-full">
@@ -43,10 +40,12 @@ export default function Hero() {
             </h1>
 
             <p className="mt-4 text-gray-400 mx-1">
-              Global Chem is as an open source government based on transparent
-              chemical data. We write the common chemical name to the molecules
-              1-D representation. This allows for all chemical data to be
-              recorded and governed by all.
+              Global Chem is as an open source government focused on
+              transforming common chemical names into 1-D molecule
+              representations, facilitating universal recording and governance.
+              Join us in shaping a future of open, accessible, and collaborative
+              chemical data management, unlocking the full potential of global
+              chemical knowledge.
             </p>
             <button
               onClick={() =>
