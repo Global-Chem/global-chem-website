@@ -1,3 +1,5 @@
+# Global Chemistry's Front Page Website
+
 This is a Next.js project bootstrapped with create-next-app.
 
 Please have at least version 14.0 of Node installed to continue with the setup. Also some sort of node package manager. If you have node installed, npm should be installed with it as well.
