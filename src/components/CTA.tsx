@@ -1,13 +1,13 @@
 import React from "react";
 import Accordion from "./Accordion";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function CTA() {
-return (
-    <section className="py-18 mt-32 mx-auto text-white md:px-8">
-      <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+  return (
+    <section className="mx-auto text-white md:px-8">
+      <div className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-2 md:gap-y-32 gap-x-10 md:gap-x-24">
         <div className="order-none md:order-2">
-          <h2 className="mb-4 text-2xl font-extrabold tracking-tight text-center text-white md:leading-tight sm:text-left md:text-4xl">
+          <h2 className="uppercase mb-4 text-2xl font-extrabold tracking-tight text-center text-white md:leading-tight sm:text-left md:text-3xl">
             Our Mission
           </h2>
           <p className="mb-5 text-base text-center text-gray-400 sm:text-left md:text-lg">
@@ -20,34 +20,32 @@ return (
         </div>
         <div className="mx-auto">
           <Image
-            src={'./assets/knowledgegraph.webp'}
+            src={"./assets/knowledgegraph.webp"}
             width={500}
             height={500}
             alt="The knowledge graph that powers Global Chem"
-            style={{border: "5px solid #991b1b", borderRadius: "5px"}}
+            style={{ border: "5px solid #991b1b", borderRadius: "5px" }}
           />
         </div>
-      
       </div>
 
-
-      <div className="grid grid-cols-1 mb-24 mt-12 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-5 md:gap-x-24 justify-center">
+      <div className="grid grid-cols-1 mb-24 mt-12 md:grid-cols-2 gap-y-2 md:gap-y-32 gap-x-5 md:gap-x-24 justify-center">
         <div className="mx-auto lg:pt-10 my-auto md:my-0 md:w-11/12">
-          <h2 className="mb-4 mt-4 text-2xl font-extrabold tracking-tight text-white md:leading-tight md:text-4xl">
+          <h2 className="uppercase mb-4 mt-4 text-2xl font-extrabold tracking-tight text-white md:leading-tight md:text-3xl">
             Our Plan
           </h2>
           <Accordion />
         </div>
         <div className="mx-auto">
           <Image
-            src={'./assets/roadmap.webp'}
+            src={"./assets/roadmap.webp"}
             width={500}
             height={500}
             alt="the global chem product roadmap"
-            style={{border: "5px solid #991b1b", borderRadius: "5px"}}
+            style={{ border: "5px solid #991b1b", borderRadius: "5px" }}
           />
         </div>
       </div>
     </section>
   );
-};
+}

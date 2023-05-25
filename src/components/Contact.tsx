@@ -27,15 +27,18 @@ export default function Contact() {
     e.preventDefault();
     setSubmitting(true);
     try {
-      const response = await fetch("/api/sendEmail", {
+      const response = await fetch("/", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: JSON.stringify(values),
+        body: new URLSearchParams({
+          "form-name": "contact",
+          ...values,
+        }).toString(),
       });
-      const data = await response.json();
-      if (data.success) {
+  
+      if (response.ok) {
         setSubmitted(true);
       } else {
         setError(
@@ -49,6 +52,7 @@ export default function Contact() {
     }
     setSubmitting(false);
   };
+  
 
   if (submitted) {
     return <p>Thank you for your message!</p>;
@@ -58,7 +62,7 @@ export default function Contact() {
     <section className="text-gray-600 body-font relative bg-white border-b-2 w-10/12 mx-auto">
       <div className="container px-5 py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900 uppercase">
             Contact Us
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -67,7 +71,8 @@ export default function Contact() {
           </p>
         </div>
         <div className="lg:w-1/2 mx-auto">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
             <div className="-m-2">
               <div className="flex flex-wrap">
                 <div className="p-2 w-full md:w-1/2 relative">
