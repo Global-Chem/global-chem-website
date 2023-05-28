@@ -1,4 +1,6 @@
-import nodemailer from 'nodemailer';
+// import nodemailer from 'nodemailer';
+
+var nodemailer = require('nodemailer');
 
 export default async function sendEmail(req: any, res: any) {
   const { name, email, message } = req.body;
