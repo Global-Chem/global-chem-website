@@ -1,56 +1,13 @@
 import { useState } from "react";
 
-type FormValues = {
-  name: string;
-  email: string;
-  message: string;
-};
-
 export default function Contact() {
-  const [values, setValues] = useState<FormValues>({
-    name: "",
-    email: "",
-    message: "",
-  });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setValues((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setSubmitting(true);
-    try {
-      const response = await fetch("/", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: new URLSearchParams({
-          "form-name": "contact",
-          ...values,
-        }).toString(),
-      });
-  
-      if (response.ok) {
-        setSubmitted(true);
-      } else {
-        setError(
-          "There was an error sending your message. Please try again later."
-        );
-      }
-    } catch (error) {
-      setError(
-        "There was an error sending your message. Please try again later."
-      );
-    }
+  const onSuccess = () => {
     setSubmitting(false);
+    setSubmitted(true);
   };
   
 
@@ -71,7 +28,7 @@ export default function Contact() {
           </p>
         </div>
         <div className="lg:w-1/2 mx-auto">
-          <form onSubmit={handleSubmit} data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
             <div className="-m-2">
               <div className="flex flex-wrap">
@@ -86,8 +43,6 @@ export default function Contact() {
                     type="text"
                     id="name"
                     name="name"
-                    value={values.name}
-                    onChange={handleChange}
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -102,8 +57,6 @@ export default function Contact() {
                     type="email"
                     id="email"
                     name="email"
-                    value={values.email}
-                    onChange={handleChange}
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -119,8 +72,6 @@ export default function Contact() {
                   <textarea
                     id="message"
                     name="message"
-                    value={values.message}
-                    onChange={handleChange}
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
