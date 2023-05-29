@@ -1,15 +1,53 @@
 import { useState } from "react";
 
+type FormValues = {
+  name?: string;
+  email?: string;
+  message?: string;
+};
+
 export default function Contact() {
+  const [values, setValues] = useState<FormValues>({
+    name: "",
+    email: "",
+    message: "",
+  });
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
-  const onSuccess = () => {
-    setSubmitting(false);
-    setSubmitted(true);
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setValues((prev) => ({ ...prev, [name]: value }));
   };
+
+  const encode = (data: { [key: string]: string }) => {
+    return Object.keys(data)
+      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+  };
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSubmitting(true);
   
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...values }),
+    })
+      .then(() => {
+        setSubmitting(false);
+        setSubmitted(true);
+      })
+      .catch((error) => {
+        setSubmitting(false);
+        setError("An error occurred. Please try again later.");
+        console.error(error);
+      });
+  };
 
   if (submitted) {
     return <p>Thank you for your message!</p>;
@@ -28,7 +66,7 @@ export default function Contact() {
           </p>
         </div>
         <div className="lg:w-1/2 mx-auto">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contact" />
             <div className="-m-2">
               <div className="flex flex-wrap">
@@ -43,6 +81,8 @@ export default function Contact() {
                     type="text"
                     id="name"
                     name="name"
+                    value={values.name}
+                    onChange={handleChange}
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -57,6 +97,8 @@ export default function Contact() {
                     type="email"
                     id="email"
                     name="email"
+                    value={values.email}
+                    onChange={handleChange}
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -72,6 +114,8 @@ export default function Contact() {
                   <textarea
                     id="message"
                     name="message"
+                    value={values.message}
+                    onChange={handleChange}
                     className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-red-500 focus:bg-white focus:ring-2 focus:ring-red-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
