@@ -30,7 +30,7 @@ export default function Hero() {
     <section className="mx-auto">
       <div className="sm:py-12 flex items-center justify-center mx-auto h-[95vh]">
         <div className="gap-8 lg:flex lg:grid-cols-2 items-center justify-center mx-auto">
-          <div className="h-auto md:w-4/6 my-2">
+          <div className="h-auto md:w-4/6 my-2 mx-auto">
             <Globe width={width} height={height} />
           </div>
 
