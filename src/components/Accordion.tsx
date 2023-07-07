@@ -35,7 +35,7 @@ const Accordion = (props: AccordionProps) => {
     <AccordionPrimitive.Root
       defaultValue={[]}
       type="multiple"
-      className={clsx("space-y-1 overflow-hidden")}
+      className={"space-y-1 overflow-hidden"}
     >
       {items.map(({ header, content }, i) => (
         <AccordionPrimitive.Item
