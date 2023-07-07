@@ -23,12 +23,12 @@ export default function Home() {
         />
         <meta name="author" content="Global Chemistry" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        </Head>
+      </Head>
       <Heading />
       <div className="bg-black px-10">
         <Hero />
-      <CTA />
-      <Stats />
+        <CTA />
+        <Stats />
       </div>
       <Contributors />
       <OpenSource />
