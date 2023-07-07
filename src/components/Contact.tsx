@@ -25,14 +25,16 @@ export default function Contact() {
 
   const encode = (data: { [key: string]: string }) => {
     return Object.keys(data)
-      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
       .join("&");
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitting(true);
-  
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -50,7 +52,33 @@ export default function Contact() {
   };
 
   if (submitted) {
-    return <p>Thank you for your message!</p>;
+    return (
+      <div
+      className="relative block w-full max-w-screen-md rounded-lg bg-green-500 px-4 py-4 text-white mx-auto m-3"
+      data-dismissible="alert"
+    >
+      <div className="absolute top-4 left-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          aria-hidden="true"
+          className="mt-px h-6 w-6"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </div>
+      <div className="ml-8">
+        <h5 className="block font-sans text-lg leading-snug tracking-normal text-white antialiased">
+          Thanks for reaching out! We&apos;ll get back to you soon.
+        </h5>
+      </div>
+    </div>
+    );
   }
 
   return (
@@ -66,7 +94,12 @@ export default function Contact() {
           </p>
         </div>
         <div className="lg:w-1/2 mx-auto">
-          <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            onSubmit={handleSubmit}
+          >
             <input type="hidden" name="form-name" value="contact" />
             <div className="-m-2">
               <div className="flex flex-wrap">

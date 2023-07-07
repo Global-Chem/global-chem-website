@@ -30,22 +30,22 @@ export default function CTA() {
       </div>
 
       <div className="grid flex-col justify-center grid-cols-1 md:grid-cols-2 gap-y-2 md:gap-y-32 gap-x-10 md:gap-x-24">
-      <div className="mt-10">
-            <h2 className="uppercase mb-4 mt-4 text-2xl font-extrabold tracking-tight text-white md:leading-tight md:text-3xl">
+        <div className="mt-10">
+          <h2 className="uppercase mb-4 mt-4 text-2xl font-extrabold tracking-tight text-white md:leading-tight md:text-3xl">
             Our Plan
           </h2>
           <Accordion />
-          </div>   
-        
-          <Image
-            src={"./assets/roadmap.webp"}
-            width={500}
-            height={500}
-            alt="the global chem product roadmap"
-            style={{ border: "5px solid #991b1b", borderRadius: "5px" }}
-            className="mx-auto my-5"
-          />
-          </div>
+        </div>
+
+        <Image
+          src={"./assets/roadmap.webp"}
+          width={500}
+          height={500}
+          alt="the global chem product roadmap"
+          style={{ border: "5px solid #991b1b", borderRadius: "5px" }}
+          className="mx-auto my-5"
+        />
+      </div>
     </section>
   );
 }
